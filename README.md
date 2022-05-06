@@ -84,24 +84,23 @@ Un arrangement de 3 nombres est défini sur 3 bits.
 
 Tout d'abord, on stocke ces 3 nombres dans un tableau. L'ordre est important, il doit toujours être le même à chaque décoder d'un nombre
 
+Si le premier bit vaut 1, alors on échange le premier et le dernier nombre du tableau de nombres
 
-Si le premier bit vaut 1, alors on échange les 2 premiers nombres du tableau de nombres
+Si le deuxième bit vaut 1, alors on échange les 2 premiers nombres du tableau de nombres
 
-Si le deuxième bit vaut 1, alors on échange les 2 derniers nombres du tableau de nombres
-
-Le troisième bit nous dit quel _swap_ faire en premier : s'il vaut 0, alors traite d'abord le premier bit. Sinon, on traite d'abord le deuxième bit
+Si le troisième bit vaut 1, alors on échange les 2 derniers nombres du tableau de nombres
 
 **Exemple :**
 
 Prenons le nombre 3 dont la représentation binaire est `011`. La liste de nombre est : `1, 2, 3`
 
-Tout d'abord, on regarde le dernier bit. Ici, il vaut 1. On traite donc le deuxième bit, puis le premier
+Le premier bit vaut 1, on fait donc un _swap_ entre la première et la dernière valeur de la liste. On obtient ainsi la liste `3, 2, 1`
 
-Le deuxième bit vaut 1, on fait donc un _swap_ entre la deuxième et la troisième valeur de la liste. On obtiens ainsi la liste `1, 3, 2`
+Le deuxième bit vaut 1, on fait donc un _swap_ entre la première et la deuxième valeur de la liste. On obtient ainsi la liste `2, 3, 1`
 
 Le troisième bit vaut 0, on ne fait donc pas de _swap_.
 
-L'arrangement représenté par le nombre 3 est donc `1, 3, 2`
+L'arrangement représenté par le nombre 3 est donc `2, 3, 1`
 
 ### 4.4 Décodage complet d'un nombre
 
@@ -119,7 +118,15 @@ Puisque `n` = 2, on a 2 opérateurs, notre calcul sera donc de la forme :
 
 * Premier opérateur : on prend les 2 derniers bits, qui sont `01`. Ce code représente la soustraction, donc le calcul est de la forme `(a - b) <opérateur> c`
 * Deuxième opérateur : on prend les 2 bits précédents, qui sont `10`. Ce code représente la multiplication, donc le calcul est de la forme `(a - b) x c`
-* Sens des _swaps_ : le troisième bit vaut 0, on traite donc d'abord le premier bit
-* _Swap_ des 2 premières valeurs : le premier bit vaut 1, on échange donc les 2 premières valeurs de notre liste. Celle-ci vaut désormais `2, 1, 3`
-* _Swap_ des 2 dernières valeurs : le deuxième bit vaut 1, on échange donc les 2 dernières valeurs de notre liste. Celle-ci vaut désormais `2, 3, 1`
+* _Swap_ des première et dernière valeurs : le cinquième bit vaut 0, on ne fait donc pas de swap.
+* _Swap_ des 2 premières valeurs : le sixième bit vaut 1, on fait donc un _swap_ des 2 premières valeurs de notre liste. Celle-ci vaut désormais `2, 1, 3`
+* _Swap_ des 2 dernières valeurs : le septième bit vaut 1, on fait donc un _swap_ des 2 dernières valeurs de notre liste. Celle-ci vaut désormais `2, 3, 1`
 * Calcul : en remplaçant `a`, `b` et `c` par les valeurs de la liste, on obtient le calcul `(2 - 3) x 1`. On doit d'abord calculer `2 - 3`. 2 étant inférieur à 3, on ne peut pas effectuer ce calcul, le calcul représenté par le nombre 105 n'est donc pas possible dans les règles que nous nous sommes fixées.
+
+### Redondance
+
+La façon de stocker les arrangements contient de la redondance : il existe 3! = 6 arrangements possibles de 3 éléments. Nous stockons ces 6 arrangements sur 3 bits, c'est-à-dire 8 valeurs possibles. Il y a donc plusieurs valeurs qui donneront les mêmes résultats (2 valeurs redondantes). Celles-ci sont :
+* `010` et `111`
+* `011` et `110`
+
+Nous pouvons remarquer qu'il est inutile de parcourir les nombres de `000` à `101`. On peut se contenter de les parcourir entre `000` et `101` (de 0 à 5 inclus).
