@@ -1,5 +1,5 @@
 ; Ce fichier contient toutes les combinaisons de calculs possibles. Certaines peuvent sembler manquer mais sont simplement des ré-écritures d'autres calculs
-; (exemple : a-b+c = a+c-b : si on peut faire a-b, alors on peut faire (a+b)-c, donc mettre a-b+c est redondant)
+; (exemple : a-b+c = a+c-b : si on peut faire a-b, alors on peut faire (a+c)-b, donc mettre a-b+c est redondant)
 ;
 ; 1 valeur
 a
