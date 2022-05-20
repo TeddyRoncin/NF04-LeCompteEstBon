@@ -14,7 +14,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;4.3 [Représentation binaire d'un arrangement de 3 nombres](#43-reprsentation-binaire-dun-arrangement-de-3-nombres)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;4.4 [Décodage complet d'un nombre](#44-dcodage-complet-dun-nombre)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;4.5 [Redondance](#45-redondance)<br />
-
+5 [Algorithme](#5-algorithme)
 
 ## 1 Rappel du sujet
 
