@@ -162,11 +162,13 @@ Nous pouvons remarquer qu'il est inutile de parcourir les nombres de `000` à `1
 
 ## 5 Algorithme
 
-Voici l'algorithme que j'ai utilisé en C. J'utilise 2 fonctions, 1 article et 1 syntaxe que je suppose définis :
+Voici l'algorithme que j'ai utilisé en C. J'utilise 4 fonctions, 1 article et 1 syntaxe que je suppose définis :
 * Fichier : un article représentant un fichier
 * OuvrirFichier : un sous-algorithme permettant d'ouvrir un fichier. Il prend en paramètre le chemin vers le fichier (relatif ou absolu. Dans cet algorithme j'utilise un chemin relatif) et renvoie un fichier. Si le fichier n'existe pas, le programme crash
 * FermerFichier : un sous-algorithme permettant de fermer un fichier.
 * Je suppose que l'on peut utiliser la fonction `Lire` de la manière suivante : `Lire(fichier!c)`, où `fichier` est une variable de type `Fichier` et `c` est une variable de type caractère. La fonction lit alors un caractère dans le fichier et avance le curseur de 1. Ainsi, après un deuxième appel de la fonction, le caractère suivant sera lu.
+* char2int : retourne le code ascii du caractère passé en paramètre
+* int2char : retourne le caractère ascii associé au nombre passé en paramètre
 ```
 Variables:
 file : Fichier  // Le fichier que l'on lit
@@ -175,8 +177,8 @@ currChar : caractère  // Le caractère courant
 fileEnd : entier  // Si on a fini de lire le fichier. Si currChar == '\0', alors on est arrivé à la fin du fichier
 stop : entier  // Calcul impossible ?
 possibleResults : tableau[1...74] d'entiers  // Le stockage des différents résultats que l'on a trouvés, pour éviter de donner certains résultats plusieurs fois à l'utilisateur
-                         // (par exemple, avec 1, 2 et 3, on peut faire plusieurs fois le nombre 1 : 2 - 1 = (1 + 2) / 3 = 1)
-                         // 74 est le nombre de combinaisons d'opérations possibles
+                                             // (par exemple, avec 1, 2 et 3, on peut faire plusieurs fois le nombre 1 : 2 - 1 = (1 + 2) / 3 = 1)
+                                             // 74 est le nombre de combinaisons d'opérations possibles
                          
 possibleResultsCount : entier  // Variable de compteur permet de savoir où on en est dans le tableau possibleResults
 result : entier  // Résultat du calcul
@@ -192,111 +194,115 @@ Algorithme:
 OuvrirFichier("c/combinations"!file)
 // Entrée des 3 valeurs de l'utilisateur
 Pour j allant de 1 à 3 par pas de 1 faire
-    Ecrire("Entrez le caractère ", j!)
-    Lire(clavier!values[j])
+  Ecrire("Entrez le caractère ", j!)
+  Lire(clavier!values[j])
 Fin Pour
 
 fileEnd <- 0
-possibleResultsCount <- 0;
+possibleResultsCount <- 0
 
 // Boucle principal : lit une ligne et calcule le résultat associé à cette ligne
 Tant que NON fileEnd faire
-    stop <- 0  // Par défaut, on suppose que le calcul est possible
-    result <- 0;  // La valeur est modifiée au fur et à mesure que l'on lit la ligne
-    operation <- 0  // Par défaut, c'est l'addition : quand on traitera le premier nombre, on aura result = 0 + nombre
-    computationSize <- 0
-    // Boucle qui lit un calcul. S'arrête quand le calcul est impossible ou quand on est arrivé à la fin de la ligne
-    currChar <- 'a'  // On met un caractère aléatoire qui va nous autoriser à rentrer dans la boucle
-    TantQue stop = 0 ET currChar != '\n' faire
-        // Les caractères représentent les nombres du tableau "values"
-        Si 'a' <= c ET c <= 'c' faire
-            value <- values[c - 'a'];  // "c - 'a'" retournera 1, 2, ou 3 en fonction de la valeur de c
-            // On regarde ce qu'il faut faire avec ce nombre. Par exemple, si c'est une multiplication, il faut multiplier le résultat par "value"
-            Si operation = 0 faire  // Addition
-                result <- result + value;
-            Sinon si operation = 1 faire  // Soustraction
-                // Il faut gérer le cas où on ne peut pas faire la soustraction
-                // Si on ne peut pas la faire, le résultat ne sera pas utilisé, on peut donc le modifier sans rien affecter. On n'a pas besoin d'inverser le calcul
-                result <- result - value;
-                Si result < 0 faire
-                    stop <- vrai
-                FinSi
-            Sinon si operation = 2 faire  // Multiplication
-                result <- result * value;
-            Sinon si operation = 3 faire  // Division
-                // Il faut gérer le cas où on ne peut pas faire la division
-                // Si on ne peut pas la faire, le résultat ne sera pas utilisé, on peut donc le modifier sans rien affecter. On n'a pas besoin d'inverser le calcul
-                Si result % value != 0 faire
-                    stop <- vrai
-                FinSi
-                result <- result / value;
-            FinSi
-            // On se souvient de cette étape
-            computation[computationSize] <- value;
-        Sinon  // Si ce n'était pas 'a', 'b' ou 'c', alors on interprète directement le caractère
-            Si c = '+' faire
-                operation <- ADDITION;
-            Sinon si c = '-' faire
-                    operation = SOUSTRACTION;
-            Sinon si c = '*' faire
-                operation = MULTIPLICATION;
-            Sinon si c = '/' faire
-                operation = DIVISION;
-            Sinon si c = '\EOF' faire
-                // On est arrivés à la fin du fichier.
-                // On arrête la boucle de lecture de ligne ainsi que celle de lecture du fichier (la boucle principale)
-                fileEnd <- true;
-                stop <- true;
-            Sinon si c = ';' faire
-                // C'est un commentaire. On arrête donc la ligne
-                stop <- true;
-            Sinon faire:
-                // Le symbol n'est pas reconnu
-                Ecrire("Fichier corrompu : symbole inconnu : ", c!);
-                fileEnd <- true
-                stop <- true
-            FinSi
-            // On se souvient de cette étape
-            computation[computationSize] <- c;
+  stop <- 0  // Par défaut, on suppose que le calcul est possible
+  result <- 0  // La valeur est modifiée au fur et à mesure que l'on lit la ligne
+  operation <- 0  // Par défaut, c'est l'addition : quand on traitera le premier nombre, on aura result = 0 + nombre
+  computationSize <- 0
+  // Boucle qui lit un calcul. S'arrête quand le calcul est impossible ou quand on est arrivé à la fin de la ligne
+  currChar <- 'a'  // On met un caractère aléatoire qui va nous autoriser à rentrer dans la boucle
+  TantQue stop = 0 ET currChar != '\n' faire
+    // Les caractères représentent les nombres du tableau "values"
+    Si 'a' <= c ET c <= 'c' faire
+      value <- values[c - 'a']  // "c - 'a'" retournera 1, 2, ou 3 en fonction de la valeur de c
+      // On regarde ce qu'il faut faire avec ce nombre. Par exemple, si c'est une multiplication, il faut multiplier le résultat par "value"
+      Si operation = 0 faire  // Addition
+        result <- result + value
+      Sinon si operation = 1 faire  // Soustraction
+        // Il faut gérer le cas où on ne peut pas faire la soustraction
+        // Si on ne peut pas la faire, le résultat ne sera pas utilisé, on peut donc le modifier sans rien affecter. On n'a pas besoin d'inverser le calcul
+        result <- result - value
+        Si result < 0 faire
+          stop <- vrai
         FinSi
-        // Dans tous les cas, on a fait une étape en plus
-        computationSize++;
-    FinTantQue
-    // Si on a forcé la fin de lecture mais qu'on n'est pas à la fin du fichier, on n'est pas arrivé au bout de la ligne
-    // On lit donc jusqu'à la fin de la ligne
-    Si stop ET NON fileEnd faire
-        TantQue currChar != '\n' faire
-            currChar <- getc(file)
-        FinTantQue
-    Sinon faire  // Si l'arrêt n'a pas été forcé (et donc que l'on n'est pas à la fin du fichier)
-        // On cherche "result" dans "possibleResults", pour savoir s'il faut l'afficher à l'utilisateur ou non
-        found <- false
-        Pour i allant de 1 à possibleResultsCount par pas de 1 faire
-            Si possibleResults[i] = result faire
-                found <- true
-            FinSi
-        FinPour
-        // Si on n'avait encore jamais trouvé ce résultat, alors on stocke ce résultat dans "possibleResults", et on affiche le résultat
-        Si NON found faire
-            possibleResults[possibleResultsCount] <- result;
-            possibleResultsCount <- possibleResultsCount + 1
-            Ecrire(result, " ["!)
-            // S'il y avait 2 calculs, on met des parenthèses, pour éviter d'écrire 2 + 1 * 3 = 9 par exemple
-            Si computationSize = 5 faire
-                Ecrire("(")
-            FinSi
-            Pour i allant de 1 à computationSize par pas de 1 faire
-                // Si on est au 4ème caractère, alors "computationSize" vaut 5
-                // (elle est forcément impaire, sauf si le fichier est corrompu. Nous considérons qu'il ne l'est pas)
-                // On est alors après le deuxième nombre, il faut donc fermer la parenthèse
-                Si i = 4 faire
-                    Ecrire(")"!)
-                FinSi
-                Ecrire(computation[i]);
-            FinPour
-            Ecrire(" = ", result, "]\n", result);
+      Sinon si operation = 2 faire  // Multiplication
+        result <- result * value
+      Sinon si operation = 3 faire  // Division
+        // Il faut gérer le cas où on ne peut pas faire la division
+        // Si on ne peut pas la faire, le résultat ne sera pas utilisé, on peut donc le modifier sans rien affecter. On n'a pas besoin d'inverser le calcul
+        Si result % value != 0 faire
+          stop <- vrai
         FinSi
+        result <- result / value
+      FinSi
+      // On se souvient de cette étape
+      computation[computationSize] <- value
+    Sinon  // Si ce n'était pas 'a', 'b' ou 'c', alors on interprète directement le caractère
+      Si c = '+' faire
+        operation <- ADDITION
+      Sinon si c = '-' faire
+        operation <- SOUSTRACTION
+      Sinon si c = '*' faire
+        operation <- MULTIPLICATION
+      Sinon si c = '/' faire
+        operation <- DIVISION
+      Sinon si c = '\EOF' faire
+        // On est arrivés à la fin du fichier.
+        // On arrête la boucle de lecture de ligne ainsi que celle de lecture du fichier (la boucle principale)
+        fileEnd <- true
+        stop <- true
+      Sinon si c = ';' faire
+        // C'est un commentaire. On arrête donc la ligne
+        stop <- true
+      Sinon faire:
+        // Le symbol n'est pas reconnu
+        Ecrire("Fichier corrompu : symbole inconnu : ", c!)
+        fileEnd <- true
+        stop <- true
+      FinSi
+      // On se souvient de cette étape
+      computation[computationSize] <- char2int(c!)
     FinSi
+    // Dans tous les cas, on a fait une étape en plus
+    computationSize++
+  FinTantQue
+  // Si on a forcé la fin de lecture mais qu'on n'est pas à la fin du fichier, on n'est pas arrivé au bout de la ligne
+  // On lit donc jusqu'à la fin de la ligne
+  Si stop ET NON fileEnd faire
+    TantQue currChar != '\n' faire
+      currChar <- getc(file)
+    FinTantQue
+  Sinon faire  // Si l'arrêt n'a pas été forcé (et donc que l'on n'est pas à la fin du fichier)
+    // On cherche "result" dans "possibleResults", pour savoir s'il faut l'afficher à l'utilisateur ou non
+    found <- false
+    Pour i allant de 1 à possibleResultsCount par pas de 1 faire
+      Si possibleResults[i] = result faire
+        found <- true
+      FinSi
+    FinPour
+    // Si on n'avait encore jamais trouvé ce résultat, alors on stocke ce résultat dans "possibleResults", et on affiche le résultat
+    Si NON found faire
+      possibleResults[possibleResultsCount] <- result
+      possibleResultsCount <- possibleResultsCount + 1
+      Ecrire(result, " ["!)
+      // S'il y avait 2 calculs, on met des parenthèses, pour éviter d'écrire 2 + 1 * 3 = 9 par exemple
+      Si computationSize = 5 faire
+        Ecrire("("!)
+      FinSi
+      Pour i allant de 1 à computationSize par pas de 1 faire
+        // Si on est au 4ème caractère, alors "computationSize" vaut 5
+        // (elle est forcément impaire, sauf si le fichier est corrompu. Nous considérons qu'il ne l'est pas)
+        // On est alors après le deuxième nombre, il faut donc fermer la parenthèse
+        Si i = 4 faire
+          Ecrire(")"!)
+        FinSi
+        Si i % 2 faire  // C'est un caractère, il faut le re-transformer en caractère
+          Ecrire(int2char(computation[i]!)!)
+        Sinon faire  // C'est un nombre, on l'affiche directement
+          Ecrire(computation[i]!)
+        FinSi
+      FinPour
+      Ecrire(" = ", result, "]\n", result!)
+    FinSi
+  FinSi
 Fin TantQue
 // On n'oublie pas de fermer le fichier
 FermerFichier(file!)
