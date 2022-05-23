@@ -170,12 +170,13 @@ Voici l'algorithme que j'ai utilisé en C. J'utilise 4 fonctions, 1 article et 1
 * char2int : retourne le code ascii du caractère passé en paramètre
 * int2char : retourne le caractère ascii associé au nombre passé en paramètre
 ```
+Programme LeCompteEstBon
 Variables:
 file : Fichier  // Le fichier que l'on lit
 values : entiers[1...3]  // Les 3 valeurs de l'utilisateur
 currChar : caractère  // Le caractère courant
-fileEnd : entier  // Si on a fini de lire le fichier. Si currChar == '\0', alors on est arrivé à la fin du fichier
-stop : entier  // Calcul impossible ?
+fileEnd : booléen  // Si on a fini de lire le fichier. Si currChar == '\0', alors on est arrivé à la fin du fichier
+stop : booléen  // Calcul impossible ?
 possibleResults : tableau[1...74] d'entiers  // Le stockage des différents résultats que l'on a trouvés, pour éviter de donner certains résultats plusieurs fois à l'utilisateur
                                              // (par exemple, avec 1, 2 et 3, on peut faire plusieurs fois le nombre 1 : 2 - 1 = (1 + 2) / 3 = 1)
                                              // 74 est le nombre de combinaisons d'opérations possibles
@@ -198,18 +199,18 @@ Pour j allant de 1 à 3 par pas de 1 faire
   Lire(clavier!values[j])
 Fin Pour
 
-fileEnd <- 0
+fileEnd <- faux
 possibleResultsCount <- 0
 
 // Boucle principal : lit une ligne et calcule le résultat associé à cette ligne
 Tant que NON fileEnd faire
-  stop <- 0  // Par défaut, on suppose que le calcul est possible
+  stop <- faux  // Par défaut, on suppose que le calcul est possible
   result <- 0  // La valeur est modifiée au fur et à mesure que l'on lit la ligne
   operation <- 0  // Par défaut, c'est l'addition : quand on traitera le premier nombre, on aura result = 0 + nombre
   computationSize <- 0
   // Boucle qui lit un calcul. S'arrête quand le calcul est impossible ou quand on est arrivé à la fin de la ligne
   currChar <- 'a'  // On met un caractère aléatoire qui va nous autoriser à rentrer dans la boucle
-  TantQue stop = 0 ET currChar != '\n' faire
+  TantQue NON stop ET currChar != '\n' faire
     // Les caractères représentent les nombres du tableau "values"
     Si 'a' <= c ET c <= 'c' faire
       value <- values[c - 'a']  // "c - 'a'" retournera 1, 2, ou 3 en fonction de la valeur de c
@@ -247,16 +248,16 @@ Tant que NON fileEnd faire
       Sinon si c = '\EOF' faire
         // On est arrivés à la fin du fichier.
         // On arrête la boucle de lecture de ligne ainsi que celle de lecture du fichier (la boucle principale)
-        fileEnd <- true
-        stop <- true
+        fileEnd <- vrai
+        stop <- vrai
       Sinon si c = ';' faire
         // C'est un commentaire. On arrête donc la ligne
-        stop <- true
+        stop <- vrai
       Sinon faire:
         // Le symbol n'est pas reconnu
         Ecrire("Fichier corrompu : symbole inconnu : ", c!)
-        fileEnd <- true
-        stop <- true
+        fileEnd <- vrai
+        stop <- vrai
       FinSi
       // On se souvient de cette étape
       computation[computationSize] <- char2int(c!)
@@ -272,10 +273,10 @@ Tant que NON fileEnd faire
     FinTantQue
   Sinon faire  // Si l'arrêt n'a pas été forcé (et donc que l'on n'est pas à la fin du fichier)
     // On cherche "result" dans "possibleResults", pour savoir s'il faut l'afficher à l'utilisateur ou non
-    found <- false
+    found <- vrai
     Pour i allant de 1 à possibleResultsCount par pas de 1 faire
       Si possibleResults[i] = result faire
-        found <- true
+        found <- vrai
       FinSi
     FinPour
     // Si on n'avait encore jamais trouvé ce résultat, alors on stocke ce résultat dans "possibleResults", et on affiche le résultat
@@ -306,4 +307,6 @@ Tant que NON fileEnd faire
 Fin TantQue
 // On n'oublie pas de fermer le fichier
 FermerFichier(file!)
+
+Fin LeCompteEstBon
 ```
