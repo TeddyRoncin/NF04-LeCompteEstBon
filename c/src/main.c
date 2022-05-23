@@ -11,7 +11,7 @@ int main() {
     // On ouvre le fichier "combinations" en lecture
     FILE *file = fopen("combinations", "r");
     if (!file) {  // Si file == NULL, il y a eu une erreur : fichier non existant, fichier déjà ouvert dans un autre programme, ...
-        printf("Une erreur s'est produite en ouvrant le fichier \"combinations\". Verifiez que le fichier existe et que vous ne l'avez pas ouvert dans un autre programme");
+        printf("Une erreur s'est produite en ouvrant le fichier \"combinations\". Verifiez que le fichier existe dans le répertoire depuis lequel vous lancez le programme et que vous ne l'avez pas ouvert dans un autre programme");
         return 1;
     }
     // Entrée des 3 valeurs de l'utilisateur
