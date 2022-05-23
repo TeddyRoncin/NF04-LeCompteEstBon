@@ -138,7 +138,7 @@ On appelle `n` le nombre d'opérations
 * Les `n`x2 derniers bits permettent de décrire les opérations
 * Les 3 derniers bits permettent de décrire l'arrangement des nombres
 
-**Exemple : **
+**Exemple :**
 
 Prenons `n` = 2, et essayons de décoder le nombre 105, dont la représentation binaire est `1101001`. Supposons que notre liste de nombre soit `1, 2, 3`
 
@@ -169,8 +169,10 @@ Voici l'algorithme que j'ai utilisé en C. J'utilise 4 fonctions, 1 article et 1
 * Je suppose que l'on peut utiliser la fonction `Lire` de la manière suivante : `Lire(fichier!c)`, où `fichier` est une variable de type `Fichier` et `c` est une variable de type caractère. La fonction lit alors un caractère dans le fichier et avance le curseur de 1. Ainsi, après un deuxième appel de la fonction, le caractère suivant sera lu.
 * char2int : retourne le code ascii du caractère passé en paramètre
 * int2char : retourne le caractère ascii associé au nombre passé en paramètre
+
 ```
 Programme LeCompteEstBon
+
 Variables:
 file : Fichier  // Le fichier que l'on lit
 values : entiers[1...3]  // Les 3 valeurs de l'utilisateur
