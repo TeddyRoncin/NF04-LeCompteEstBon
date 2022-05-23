@@ -209,11 +209,11 @@ Tant que NON fileEnd faire
   operation <- 0  // Par défaut, c'est l'addition : quand on traitera le premier nombre, on aura result = 0 + nombre
   computationSize <- 0
   // Boucle qui lit un calcul. S'arrête quand le calcul est impossible ou quand on est arrivé à la fin de la ligne
-  currChar <- 'a'  // On met un caractère aléatoire qui va nous autoriser à rentrer dans la boucle
+  Lire(file!currChar)  // On lit un premier caractère
   TantQue NON stop ET currChar != '\n' faire
     // Les caractères représentent les nombres du tableau "values"
-    Si 'a' <= c ET c <= 'c' faire
-      value <- values[c - 'a']  // "c - 'a'" retournera 1, 2, ou 3 en fonction de la valeur de c
+    Si 'a' <= currChar ET currChar <= 'c' faire
+      value <- values[char2int(currChar) - char2int('a')]  // "c - 'a'" retournera 1, 2, ou 3 en fonction de la valeur de c
       // On regarde ce qu'il faut faire avec ce nombre. Par exemple, si c'est une multiplication, il faut multiplier le résultat par "value"
       Si operation = 0 faire  // Addition
         result <- result + value
@@ -237,20 +237,20 @@ Tant que NON fileEnd faire
       // On se souvient de cette étape
       computation[computationSize] <- value
     Sinon  // Si ce n'était pas 'a', 'b' ou 'c', alors on interprète directement le caractère
-      Si c = '+' faire
+      Si currChar = '+' faire
         operation <- ADDITION
-      Sinon si c = '-' faire
+      Sinon si currChar = '-' faire
         operation <- SOUSTRACTION
-      Sinon si c = '*' faire
+      Sinon si currChar = '*' faire
         operation <- MULTIPLICATION
-      Sinon si c = '/' faire
+      Sinon si currChar = '/' faire
         operation <- DIVISION
-      Sinon si c = '\EOF' faire
+      Sinon si currChar = '\EOF' faire
         // On est arrivés à la fin du fichier.
         // On arrête la boucle de lecture de ligne ainsi que celle de lecture du fichier (la boucle principale)
         fileEnd <- vrai
         stop <- vrai
-      Sinon si c = ';' faire
+      Sinon si currChar = ';' faire
         // C'est un commentaire. On arrête donc la ligne
         stop <- vrai
       Sinon faire:
@@ -264,12 +264,13 @@ Tant que NON fileEnd faire
     FinSi
     // Dans tous les cas, on a fait une étape en plus
     computationSize++
+    Lire(file!currChar)  // On lit le caractère suivant
   FinTantQue
   // Si on a forcé la fin de lecture mais qu'on n'est pas à la fin du fichier, on n'est pas arrivé au bout de la ligne
   // On lit donc jusqu'à la fin de la ligne
   Si stop ET NON fileEnd faire
     TantQue currChar != '\n' faire
-      currChar <- getc(file)
+      Lire(file!currChar)
     FinTantQue
   Sinon faire  // Si l'arrêt n'a pas été forcé (et donc que l'on n'est pas à la fin du fichier)
     // On cherche "result" dans "possibleResults", pour savoir s'il faut l'afficher à l'utilisateur ou non
