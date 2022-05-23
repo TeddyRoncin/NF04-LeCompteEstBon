@@ -1,12 +1,12 @@
 # Le compte est bon - Mini projet de NF04 du semestre P22
 
+Lien du projet sur GitHub : https://github.com/TeddyRoncin/NF04-LeCompteEstBon
+
 ## Sommaire
 1 [Rappel du sujet](#1-rappel-du-sujet)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;1.1 [Le sujet](#11-le-sujet)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;1.2 [Ce qu'il faut faire](#12-ce-quil-faut-faire)<br />
-2 [Vocabulaire et notions utilisées](#2-vocabulaire-et-notions-utiliss)<br />
-&nbsp;&nbsp;&nbsp;&nbsp;2.1 [Vocabulaire](#21-vocabulaire)<br />
-&nbsp;&nbsp;&nbsp;&nbsp;2.2 [Notions](#22-notions)<br />
+2 [Notions utilisées](#2-notions-utilises)<br />
 3 [Programme en C](#3-programme-en-c)<br />
 4 [Programme en Python](#4-programme-en-python)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;4.1 [Approche](#41-approche)<br />
@@ -20,7 +20,7 @@
 
 ### 1.1 Le sujet
 
-Le but du jeu est de trouver tous les nombres pouvant être créés à partir de 3 nombres saisis par l'utilisateur et des 4 opérations élémentaires : l'addition, la soustraction, la multiplication, et la division.
+Le but du jeu est de trouver tous les nombres pouvant être créés à partir de 3 nombres saisis par l'utilisateur et des 4 opérations élémentaires : l'addition, la soustraction, la multiplication et la division.
 
 Notons que la soustraction `a - b` ne peut être effectuée que lorsque `a >= b`. La division ne peut être faite que quand le résultat est entier
 
@@ -33,24 +33,19 @@ Il faut créer ce programme dans les langages C et Python.
 Nous ne pouvons pas créer de fonctions (sauf fonctions simples)
 
 
-## 2 Vocabulaire et notions utilisés
+## 2 Notions utilisées
 
-### 2.1 Vocabulaire
+L'algorithme implémenté en Python se base sur la représentation des nombres en binaire.
 
-* _swap_ : un échange de 2 nombres
-
-### 2.2 Notions
-
-Ces algorithmes se basent sur la représentation des nombres en binaire.
-
-On lira les bits de la droite vers la gauche. Ainsi, dans le nombre `01100101`, le 1er bit vaudra 1, et le 8ème vaudra 0
+On lira les bits de la droite vers la gauche. Ainsi, dans le nombre `01100101`, le 1er bit vaudra 1 et le 8ème vaudra 0
 
 Il existe quelques opérateurs importants :
-* `a << b` : le décalage vers la gauche. Décale `a` de `b` bits. Les bits rajoutés à droite valent 0. Les bits qui ne peuvent pas être stockés à gauche (par exemple, on ne peut pas stocker de 9ème bit dans un octet = 8 bits) sont effacés. Cela est équivalent à `(a x 2^b) % N`, où `N` est la valeur maximale encodable (256 pour un octet)
+
+* `a << b` : le décalage vers la gauche. Décale `a` de `b` bits. Les bits rajoutés à droite valent 0. Les bits qui ne peuvent pas être stockés à gauche (par exemple, on ne peut pas stocker de 9ème bit dans un octet = 8 bits) sont effacés. Cela est équivalent à `(a x 2^b) % N`, où `N` est la valeur maximale codable (256 pour un octet)
 
     Exemple : `01011101 << 3 = 11101000`
 
-* `a >> b` : le décalage vers la droite. Décale `a` de `b` bits. Les bits rajoutés à gauche valent 0. Les bits qui ne peuvent pas être stockés à droite (par exemple, on ne peut pas stocker de 0ème bit) sont effacés. Cela est équivalent à `E(a / 2^b)`, où `E(x)` est la fonction partie entière
+* `a >> b` : le décalage vers la droite. Décale `a` de `b` bits. Les bits rajoutés à gauche valent 0. Les bits qui ne peuvent pas être stockés à droite (par exemple, on ne peut pas stocker de 0ème bit) sont effacés. Cela est équivalent à `E(a / 2^b)`, où `E` est la fonction partie entière
 
     Exemple : `01011101 >> 3 = 00001011`
 
@@ -60,7 +55,9 @@ Il existe quelques opérateurs importants :
 
 Cela nous permet de faire des opérations très utiles
 
-* Récupérer le `n`-ième bit d'un nombre `a` : Il faut isoler ce bit. Pour cela, on place ce bit en première position (`b = a >> (n - 1)` : on soustrait 1 à n car on commence à compter à partir de 1, mais la valeur nulle de l'opérateur est 0). Il faut ensuite faire en sorte que tous les bits soient égaux à 0, sauf le premier, de façon à isoler le bit (`b & 1`). Pour récupérer le `n`-ième bit du nombre `a`, on fera donc `(a << (n - 1)) & 1`
+* Récupérer le `n`-ème bit d'un nombre `a` : Il faut isoler ce bit. Pour cela, on place ce bit en première position (`b = a >> (n - 1)` : on soustrait 1 à n, car on commence à compter à partir de 1, mais la valeur nulle de l'opérateur est 0). Il faut ensuite faire en sorte que tous les bits soient égaux à 0, sauf le premier, de façon à isoler le bit (`b & 1`). Pour récupérer le `n`-ème bit du nombre `a`, on fera donc `(a << (n - 1)) & 1`
+
+Nous appellerons un *swap* un échange de 2 valeurs dans un tableau
 
 ## 3. Programme en C
 
@@ -71,10 +68,11 @@ Le but est de lire un fichier, contenant toutes les façons de combiner les nomb
 ### 3.2 Syntaxe du fichier de combinaisons
 
 Le fichier s'appelle `combinations`. Il est localisé dans le dossier `/c/` La syntaxe est très simple :
+
 * Les caractères `a`, `b` et `c` représentent respectivement les première, deuxième et troisième valeurs entrées par l'utilisateur.
 * Les caractères `+`, `-`, `*` et `/` représentent respectivement une addition, une soustraction, une multiplication et une division.
 * Les 7 caractères décrits dans les 2 premiers points ne doivent pas être séparés par des espaces
-* Une ligne commençant par `;` sera un commentaire et sera ignorée
+* Une ligne commençant par `;` est un commentaire et sera ignorée
 * Le fichier doit se finir par une ligne vide
 
 ### 3.3 Lecture du fichier
@@ -82,6 +80,7 @@ Le fichier s'appelle `combinations`. Il est localisé dans le dossier `/c/` La s
 Pour lire le fichier, on ne peut pas stocker tous les caractères dans un tableau, car on ne connaît pas encore la taille du fichier.
 
 On peut parser le fichier au fur et à mesure que l'on le lit. Il faudra pour cela stocker le résultat courant du calcul ainsi que la dernière opération lue. Par exemple, si les 3 nombres choisis par l'utilisateur sont 1, 2 et 3, et que le calcul est `b/a*c`, on fera :
+
 * Par défaut, le résultat vaut 0
 * Par défaut, la dernière opération est une addition
 * On lit le premier caractère, c'est un `b`. On ajoute donc le deuxième terme de la liste de nombre (2) au résultat, puisque la dernière opération était une addition. Le résultat vaut donc désormais 0 + 2 = 2
@@ -123,11 +122,11 @@ Si le troisième bit vaut 1, alors on échange les 2 derniers nombres du tableau
 
 Prenons le nombre 3 dont la représentation binaire est `011`. La liste de nombre est : `1, 2, 3`
 
-Le premier bit vaut 1, on fait donc un _swap_ entre la première et la dernière valeur de la liste. On obtient ainsi la liste `3, 2, 1`
+Le premier bit vaut 1, on fait donc un *swap* entre la première et la dernière valeur de la liste. On obtient ainsi la liste `3, 2, 1`
 
-Le deuxième bit vaut 1, on fait donc un _swap_ entre la première et la deuxième valeur de la liste. On obtient ainsi la liste `2, 3, 1`
+Le deuxième bit vaut 1, on fait donc un *swap* entre la première et la deuxième valeur de la liste. On obtient ainsi la liste `2, 3, 1`
 
-Le troisième bit vaut 0, on ne fait donc pas de _swap_.
+Le troisième bit vaut 0, on ne fait donc pas de *swap*.
 
 L'arrangement représenté par le nombre 3 est donc `2, 3, 1`
 
@@ -147,14 +146,15 @@ Puisque `n` = 2, on a 2 opérateurs, notre calcul sera donc de la forme :
 
 * Premier opérateur : on prend les 2 derniers bits, qui sont `01`. Ce code représente la soustraction, donc le calcul est de la forme `(a - b) <opérateur> c`
 * Deuxième opérateur : on prend les 2 bits précédents, qui sont `10`. Ce code représente la multiplication, donc le calcul est de la forme `(a - b) x c`
-* _Swap_ des première et dernière valeurs : le cinquième bit vaut 0, on ne fait donc pas de swap.
-* _Swap_ des 2 premières valeurs : le sixième bit vaut 1, on fait donc un _swap_ des 2 premières valeurs de notre liste. Celle-ci vaut désormais `2, 1, 3`
-* _Swap_ des 2 dernières valeurs : le septième bit vaut 1, on fait donc un _swap_ des 2 dernières valeurs de notre liste. Celle-ci vaut désormais `2, 3, 1`
+* *swap* des première et dernière valeurs : le cinquième bit vaut 0, on ne fait donc pas de swap.
+* *swap* des 2 premières valeurs : le sixième bit vaut 1, on fait donc un *swap* des 2 premières valeurs de notre liste. Celle-ci vaut désormais `2, 1, 3`
+* *swap* des 2 dernières valeurs : le septième bit vaut 1, on fait donc un *swap* des 2 dernières valeurs de notre liste. Celle-ci vaut désormais `2, 3, 1`
 * Calcul : en remplaçant `a`, `b` et `c` par les valeurs de la liste, on obtient le calcul `(2 - 3) x 1`. On doit d'abord calculer `2 - 3`. 2 étant inférieur à 3, on ne peut pas effectuer ce calcul, le calcul représenté par le nombre 105 n'est donc pas possible dans les règles que nous nous sommes fixées.
 
 ### 4.5 Redondance
 
 La façon de stocker les arrangements contient de la redondance : il existe 3! = 6 arrangements possibles de 3 éléments. Nous stockons ces 6 arrangements sur 3 bits, c'est-à-dire 8 valeurs possibles. Il y a donc plusieurs valeurs qui donneront les mêmes résultats (2 valeurs redondantes). Celles-ci sont :
+
 * `010` et `111`
 * `011` et `110`
 
@@ -163,12 +163,13 @@ Nous pouvons remarquer qu'il est inutile de parcourir les nombres de `000` à `1
 ## 5 Algorithme
 
 Voici l'algorithme que j'ai utilisé en C. J'utilise 4 fonctions, 1 article et 1 syntaxe que je suppose définis :
-* Fichier : un article représentant un fichier
-* OuvrirFichier : un sous-algorithme permettant d'ouvrir un fichier. Il prend en paramètre le chemin vers le fichier (relatif ou absolu. Dans cet algorithme j'utilise un chemin relatif) et renvoie un fichier. Si le fichier n'existe pas, le programme crash
-* FermerFichier : un sous-algorithme permettant de fermer un fichier.
-* Je suppose que l'on peut utiliser la fonction `Lire` de la manière suivante : `Lire(fichier!c)`, où `fichier` est une variable de type `Fichier` et `c` est une variable de type caractère. La fonction lit alors un caractère dans le fichier et avance le curseur de 1. Ainsi, après un deuxième appel de la fonction, le caractère suivant sera lu.
-* char2int : retourne le code ascii du caractère passé en paramètre
-* int2char : retourne le caractère ascii associé au nombre passé en paramètre
+
+* `Fichier` : un article représentant un fichier
+* `OuvrirFichier` : un sous-algorithme permettant d'ouvrir un fichier. Il prend en paramètre le chemin vers le fichier (relatif ou absolu. Dans cet algorithme, j'utilise un chemin relatif) et renvoie un fichier. Si le fichier n'existe pas, le programme crashe
+* `FermerFichier` : un sous-algorithme permettant de fermer un fichier.
+* Je suppose que l'on peut utiliser la fonction `Lire` de la manière suivante : `Lire(fichier!c)`, où `fichier` est une variable de type `Fichier` et `c` est une variable de type caractère. La fonction lit alors un caractère dans le fichier et avance le curseur de lecture de 1. Ainsi, après un deuxième appel de la fonction, le caractère suivant sera lu.
+* `char2int` : retourne le code ASCII du caractère passé en paramètre
+* `int2char` : retourne le caractère ASCII associé au nombre passé en paramètre
 
 ```
 Programme LeCompteEstBon
