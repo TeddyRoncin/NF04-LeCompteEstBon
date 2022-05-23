@@ -8,6 +8,9 @@ Lien du projet sur GitHub : https://github.com/TeddyRoncin/NF04-LeCompteEstBon
 &nbsp;&nbsp;&nbsp;&nbsp;1.2 [Ce qu'il faut faire](#12-ce-quil-faut-faire)<br />
 2 [Notions utilisées](#2-notions-utilises)<br />
 3 [Programme en C](#3-programme-en-c)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;3.1 [Approche](#31-approche)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;3.1 [Syntaxe du fichier de combinaisons](#32-syntaxe-du-fichier-de-combinaisons)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;3.1 [Lecture du fichier](#33-lecture-du-fichier)<br />
 4 [Programme en Python](#4-programme-en-python)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;4.1 [Approche](#41-approche)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;4.2 [Représentation binaire des opérateurs](#42-reprsentation-binaire-des-oprations)<br />

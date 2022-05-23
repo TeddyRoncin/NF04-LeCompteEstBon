@@ -10,12 +10,12 @@ endobj
 3 0 obj
 << /Type /Pages
 /Kids [6 0 R
-37 0 R
-40 0 R
-42 0 R
-44 0 R
+43 0 R
 46 0 R
 48 0 R
+50 0 R
+52 0 R
+54 0 R
 ]
 /Count 7
 /Resources <<
@@ -24,7 +24,7 @@ endobj
 /F1 8 0 R
 /F2 9 0 R
 /F3 10 0 R
-/F4 39 0 R
+/F4 45 0 R
 >>
 >>
 /MediaBox [0.000 0.000 595.280 841.890]
@@ -36,20 +36,20 @@ endobj
 5 0 obj
 <<
 /Creator (DOMPDF)
-/CreationDate (D:20220523174423+00'00')
-/ModDate (D:20220523174423+00'00')
+/CreationDate (D:20220523175334+00'00')
+/ModDate (D:20220523175334+00'00')
 >>
 endobj
 6 0 obj
 << /Type /Page
 /Parent 3 0 R
-/Annots [ 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R ]
+/Annots [ 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R ]
 /Contents 7 0 R
 >>
 endobj
 7 0 obj
 <<
-/Length 5301 >>
+/Length 5467 >>
 stream
 
 0.000 0.000 0.000 rg
@@ -93,79 +93,86 @@ BT 43.016 584.050 Td /F2 12.0 Tf  [(Programme en C)] TJ ET
 0.6 w 0 J [  ] 0 d
 43.016 581.350 m 124.340 581.350 l S
 0.000 0.000 0.000 rg
-BT 34.016 569.650 Td /F2 12.0 Tf  [(4 )] TJ ET
+BT 34.016 569.650 Td /F2 12.0 Tf  [(    3.1 )] TJ ET
 0.000 0.000 0.800 rg
-BT 43.016 569.650 Td /F2 12.0 Tf  [(Programme en Python)] TJ ET
+BT 64.016 569.650 Td /F2 12.0 Tf  [(Approche)] TJ ET
 0.6 w 0 J [  ] 0 d
-43.016 566.950 m 150.344 566.950 l S
+64.016 566.950 m 111.332 566.950 l S
 0.000 0.000 0.000 rg
-BT 34.016 555.250 Td /F2 12.0 Tf  [(    4.1 )] TJ ET
+BT 34.016 555.250 Td /F2 12.0 Tf  [(    3.1 )] TJ ET
 0.000 0.000 0.800 rg
-BT 64.016 555.250 Td /F2 12.0 Tf  [(Approche)] TJ ET
+BT 64.016 555.250 Td /F2 12.0 Tf  [(Syntaxe du fichier de combinaisons)] TJ ET
 0.6 w 0 J [  ] 0 d
-64.016 552.550 m 111.332 552.550 l S
+64.016 552.550 m 235.328 552.550 l S
 0.000 0.000 0.000 rg
-BT 34.016 540.850 Td /F2 12.0 Tf  [(    4.2 )] TJ ET
+BT 34.016 540.850 Td /F2 12.0 Tf  [(    3.1 )] TJ ET
 0.000 0.000 0.800 rg
-BT 64.016 540.850 Td /F2 12.0 Tf  [(Représentation binaire des opérateurs)] TJ ET
+BT 64.016 540.850 Td /F2 12.0 Tf  [(Lecture du fichier)] TJ ET
 0.6 w 0 J [  ] 0 d
-64.016 538.150 m 244.304 538.150 l S
+64.016 538.150 m 149.984 538.150 l S
 0.000 0.000 0.000 rg
-BT 34.016 526.450 Td /F2 12.0 Tf  [(    4.3 )] TJ ET
+BT 34.016 526.450 Td /F2 12.0 Tf  [(4 )] TJ ET
 0.000 0.000 0.800 rg
-BT 64.016 526.450 Td /F2 12.0 Tf  [(Représentation binaire d'un arrangement de 3 nombres)] TJ ET
+BT 43.016 526.450 Td /F2 12.0 Tf  [(Programme en Python)] TJ ET
 0.6 w 0 J [  ] 0 d
-64.016 523.750 m 326.120 523.750 l S
+43.016 523.750 m 150.344 523.750 l S
 0.000 0.000 0.000 rg
-BT 34.016 512.050 Td /F2 12.0 Tf  [(    4.4 )] TJ ET
+BT 34.016 512.050 Td /F2 12.0 Tf  [(    4.1 )] TJ ET
 0.000 0.000 0.800 rg
-BT 64.016 512.050 Td /F2 12.0 Tf  [(Décodage complet d'un nombre)] TJ ET
+BT 64.016 512.050 Td /F2 12.0 Tf  [(Approche)] TJ ET
 0.6 w 0 J [  ] 0 d
-64.016 509.350 m 216.476 509.350 l S
+64.016 509.350 m 111.332 509.350 l S
 0.000 0.000 0.000 rg
-BT 34.016 497.650 Td /F2 12.0 Tf  [(    4.5 )] TJ ET
+BT 34.016 497.650 Td /F2 12.0 Tf  [(    4.2 )] TJ ET
 0.000 0.000 0.800 rg
-BT 64.016 497.650 Td /F2 12.0 Tf  [(Redondance)] TJ ET
+BT 64.016 497.650 Td /F2 12.0 Tf  [(Représentation binaire des opérateurs)] TJ ET
 0.6 w 0 J [  ] 0 d
-64.016 494.950 m 123.332 494.950 l S
+64.016 494.950 m 244.304 494.950 l S
 0.000 0.000 0.000 rg
-BT 34.016 483.365 Td /F2 12.0 Tf  [(5 )] TJ ET
+BT 34.016 483.250 Td /F2 12.0 Tf  [(    4.3 )] TJ ET
 0.000 0.000 0.800 rg
-BT 43.016 483.365 Td /F2 12.0 Tf  [(Algorithme)] TJ ET
+BT 64.016 483.250 Td /F2 12.0 Tf  [(Représentation binaire d'un arrangement de 3 nombres)] TJ ET
 0.6 w 0 J [  ] 0 d
-43.016 480.665 m 98.348 480.665 l S
+64.016 480.550 m 326.120 480.550 l S
 0.000 0.000 0.000 rg
-BT 34.016 448.467 Td /F1 18.0 Tf  [(1 Rappel du sujet)] TJ ET
-BT 34.016 415.907 Td /F1 14.0 Tf  [(1.1 Le sujet)] TJ ET
-BT 34.016 389.166 Td /F2 12.0 Tf  [(Le but du jeu est de trouver tous les nombres pouvant être créés à partir de 3 nombres saisis par l'utilisateur )] TJ ET
-BT 34.016 374.910 Td /F2 12.0 Tf  [(et des 4 opérations élémentaires : l'addition, la soustraction, la multiplication et la division.)] TJ ET
-BT 34.016 348.654 Td /F2 12.0 Tf  [(Notons que la soustraction )] TJ ET
-BT 164.672 348.654 Td /F3 12.0 Tf  [(a - b)] TJ ET
-BT 200.672 348.654 Td /F2 12.0 Tf  [( ne peut être effectuée que lorsque )] TJ ET
-BT 368.276 348.654 Td /F3 12.0 Tf  [(a >= b)] TJ ET
-BT 411.476 348.654 Td /F2 12.0 Tf  [(. La division ne peut être faite )] TJ ET
-BT 34.016 334.398 Td /F2 12.0 Tf  [(que quand le résultat est entier)] TJ ET
-BT 34.016 308.142 Td /F2 12.0 Tf  [(On ne peut pas utiliser plusieurs fois le même nombre, et on n'est pas obligés d'utiliser tous les nombres)] TJ ET
-BT 34.016 279.947 Td /F1 14.0 Tf  [(1.2 Ce qu'il faut faire)] TJ ET
-BT 34.016 253.206 Td /F2 12.0 Tf  [(Il faut créer ce programme dans les langages C et Python.)] TJ ET
-BT 34.016 226.950 Td /F2 12.0 Tf  [(Nous ne pouvons pas créer de fonctions \(sauf fonctions simples\))] TJ ET
-BT 34.016 192.052 Td /F1 18.0 Tf  [(2 Notions utilisées)] TJ ET
-BT 34.016 161.430 Td /F2 12.0 Tf  [(L'algorithme implémenté en Python se base sur la représentation des nombres en binaire.)] TJ ET
-BT 34.016 135.174 Td /F2 12.0 Tf  [(On lira les bits de la droite vers la gauche. Ainsi, dans le nombre )] TJ ET
-BT 347.300 135.174 Td /F3 12.0 Tf  [(01100101)] TJ ET
-BT 404.900 135.174 Td /F2 12.0 Tf  [(, le 1er bit vaudra 1 et le 8ème )] TJ ET
-BT 34.016 120.918 Td /F2 12.0 Tf  [(vaudra 0)] TJ ET
-BT 34.016 94.662 Td /F2 12.0 Tf  [(Il existe quelques opérateurs importants :)] TJ ET
-0.000 0.000 0.000 RG
-57.816 71.511 m 
-57.816 72.061 57.589 72.607 57.201 72.996 c
-56.812 73.385 56.266 73.611 55.716 73.611 c
-55.166 73.611 54.620 73.385 54.231 72.996 c
-53.842 72.607 53.616 72.061 53.616 71.511 c
-53.616 70.961 53.842 70.415 54.231 70.026 c
-54.620 69.638 55.166 69.411 55.716 69.411 c
-56.266 69.411 56.812 69.638 57.201 70.026 c
-57.589 70.415 57.816 70.961 57.816 71.511 c f
+BT 34.016 468.850 Td /F2 12.0 Tf  [(    4.4 )] TJ ET
+0.000 0.000 0.800 rg
+BT 64.016 468.850 Td /F2 12.0 Tf  [(Décodage complet d'un nombre)] TJ ET
+0.6 w 0 J [  ] 0 d
+64.016 466.150 m 216.476 466.150 l S
+0.000 0.000 0.000 rg
+BT 34.016 454.450 Td /F2 12.0 Tf  [(    4.5 )] TJ ET
+0.000 0.000 0.800 rg
+BT 64.016 454.450 Td /F2 12.0 Tf  [(Redondance)] TJ ET
+0.6 w 0 J [  ] 0 d
+64.016 451.750 m 123.332 451.750 l S
+0.000 0.000 0.000 rg
+BT 34.016 440.165 Td /F2 12.0 Tf  [(5 )] TJ ET
+0.000 0.000 0.800 rg
+BT 43.016 440.165 Td /F2 12.0 Tf  [(Algorithme)] TJ ET
+0.6 w 0 J [  ] 0 d
+43.016 437.465 m 98.348 437.465 l S
+0.000 0.000 0.000 rg
+BT 34.016 405.267 Td /F1 18.0 Tf  [(1 Rappel du sujet)] TJ ET
+BT 34.016 372.707 Td /F1 14.0 Tf  [(1.1 Le sujet)] TJ ET
+BT 34.016 345.966 Td /F2 12.0 Tf  [(Le but du jeu est de trouver tous les nombres pouvant être créés à partir de 3 nombres saisis par l'utilisateur )] TJ ET
+BT 34.016 331.710 Td /F2 12.0 Tf  [(et des 4 opérations élémentaires : l'addition, la soustraction, la multiplication et la division.)] TJ ET
+BT 34.016 305.454 Td /F2 12.0 Tf  [(Notons que la soustraction )] TJ ET
+BT 164.672 305.454 Td /F3 12.0 Tf  [(a - b)] TJ ET
+BT 200.672 305.454 Td /F2 12.0 Tf  [( ne peut être effectuée que lorsque )] TJ ET
+BT 368.276 305.454 Td /F3 12.0 Tf  [(a >= b)] TJ ET
+BT 411.476 305.454 Td /F2 12.0 Tf  [(. La division ne peut être faite )] TJ ET
+BT 34.016 291.198 Td /F2 12.0 Tf  [(que quand le résultat est entier)] TJ ET
+BT 34.016 264.942 Td /F2 12.0 Tf  [(On ne peut pas utiliser plusieurs fois le même nombre, et on n'est pas obligés d'utiliser tous les nombres)] TJ ET
+BT 34.016 236.747 Td /F1 14.0 Tf  [(1.2 Ce qu'il faut faire)] TJ ET
+BT 34.016 210.006 Td /F2 12.0 Tf  [(Il faut créer ce programme dans les langages C et Python.)] TJ ET
+BT 34.016 183.750 Td /F2 12.0 Tf  [(Nous ne pouvons pas créer de fonctions \(sauf fonctions simples\))] TJ ET
+BT 34.016 148.852 Td /F1 18.0 Tf  [(2 Notions utilisées)] TJ ET
+BT 34.016 118.230 Td /F2 12.0 Tf  [(L'algorithme implémenté en Python se base sur la représentation des nombres en binaire.)] TJ ET
+BT 34.016 91.974 Td /F2 12.0 Tf  [(On lira les bits de la droite vers la gauche. Ainsi, dans le nombre )] TJ ET
+BT 347.300 91.974 Td /F3 12.0 Tf  [(01100101)] TJ ET
+BT 404.900 91.974 Td /F2 12.0 Tf  [(, le 1er bit vaudra 1 et le 8ème )] TJ ET
+BT 34.016 77.718 Td /F2 12.0 Tf  [(vaudra 0)] TJ ET
 endstream
 endobj
 8 0 obj
@@ -278,7 +285,7 @@ endobj
 /A 24 0 R
 /Border [0 0 0]
 /H /I
-/Rect [ 43.0157 568.5703 150.3437 580.4503 ]
+/Rect [ 64.0157 568.5703 111.3317 580.4503 ]
 >>
 endobj
 24 0 obj
@@ -291,7 +298,7 @@ endobj
 /A 26 0 R
 /Border [0 0 0]
 /H /I
-/Rect [ 64.0157 554.1703 111.3317 566.0503 ]
+/Rect [ 64.0157 554.1703 235.3277 566.0503 ]
 >>
 endobj
 26 0 obj
@@ -304,7 +311,7 @@ endobj
 /A 28 0 R
 /Border [0 0 0]
 /H /I
-/Rect [ 64.0157 539.7703 244.3037 551.6503 ]
+/Rect [ 64.0157 539.7703 149.9837 551.6503 ]
 >>
 endobj
 28 0 obj
@@ -317,7 +324,7 @@ endobj
 /A 30 0 R
 /Border [0 0 0]
 /H /I
-/Rect [ 64.0157 525.3703 326.1197 537.2503 ]
+/Rect [ 43.0157 525.3703 150.3437 537.2503 ]
 >>
 endobj
 30 0 obj
@@ -330,7 +337,7 @@ endobj
 /A 32 0 R
 /Border [0 0 0]
 /H /I
-/Rect [ 64.0157 510.9703 216.4757 522.8503 ]
+/Rect [ 64.0157 510.9703 111.3317 522.8503 ]
 >>
 endobj
 32 0 obj
@@ -343,7 +350,7 @@ endobj
 /A 34 0 R
 /Border [0 0 0]
 /H /I
-/Rect [ 64.0157 496.5703 123.3317 508.4503 ]
+/Rect [ 64.0157 496.5703 244.3037 508.4503 ]
 >>
 endobj
 34 0 obj
@@ -356,7 +363,7 @@ endobj
 /A 36 0 R
 /Border [0 0 0]
 /H /I
-/Rect [ 43.0157 482.2855 98.3477 494.1655 ]
+/Rect [ 64.0157 482.1703 326.1197 494.0503 ]
 >>
 endobj
 36 0 obj
@@ -364,684 +371,239 @@ endobj
 >>
 endobj
 37 0 obj
-<< /Type /Page
-/Parent 3 0 R
-/Contents 38 0 R
+<< /Type /Annot
+/Subtype /Link
+/A 38 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 64.0157 467.7703 216.4757 479.6503 ]
 >>
 endobj
 38 0 obj
+<< /Type /Action
+>>
+endobj
+39 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 40 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 64.0157 453.3703 123.3317 465.2503 ]
+>>
+endobj
+40 0 obj
+<< /Type /Action
+>>
+endobj
+41 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 42 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 43.0157 439.0855 98.3477 450.9655 ]
+>>
+endobj
+42 0 obj
+<< /Type /Action
+>>
+endobj
+43 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 44 0 R
+>>
+endobj
+44 0 obj
 <<
-/Length 9637 >>
+/Length 9914 >>
 stream
 
 0.000 0.000 0.000 rg
-0.000 0.000 0.000 RG
+0.000 0.000 0.800 RG
 0.6 w 0 J [  ] 0 d
-BT 64.016 784.469 Td /F3 12.0 Tf  [(a << b)] TJ ET
-BT 107.216 784.469 Td /F2 12.0 Tf  [( : le décalage vers la gauche. Décale )] TJ ET
-BT 284.144 784.469 Td /F3 12.0 Tf  [(a)] TJ ET
-BT 291.344 784.469 Td /F2 12.0 Tf  [( de )] TJ ET
-BT 308.672 784.469 Td /F3 12.0 Tf  [(b)] TJ ET
-BT 315.872 784.469 Td /F2 12.0 Tf  [( bits. Les bits rajoutés à droite valent 0. Les bits )] TJ ET
-BT 64.016 770.213 Td /F2 12.0 Tf  [(qui ne peuvent pas être stockés à gauche \(par exemple, on ne peut pas stocker de 9ème bit dans un )] TJ ET
-BT 64.016 755.957 Td /F2 12.0 Tf  [(octet = 8 bits\) sont effacés. Cela est équivalent à )] TJ ET
-BT 299.072 755.957 Td /F3 12.0 Tf  [(\(a x 2^b\) % N)] TJ ET
-BT 392.672 755.957 Td /F2 12.0 Tf  [(, où )] TJ ET
-BT 413.672 755.957 Td /F3 12.0 Tf  [(N)] TJ ET
-BT 420.872 755.957 Td /F2 12.0 Tf  [( est la valeur maximale )] TJ ET
-BT 64.016 741.701 Td /F2 12.0 Tf  [(codable \(256 pour un octet\))] TJ ET
-BT 64.016 715.445 Td /F2 12.0 Tf  [(Exemple : )] TJ ET
-BT 116.012 715.445 Td /F3 12.0 Tf  [(01011101 << 3 = 11101000)] TJ ET
-57.816 692.294 m 
-57.816 692.844 57.589 693.390 57.201 693.779 c
-56.812 694.168 56.266 694.394 55.716 694.394 c
-55.166 694.394 54.620 694.168 54.231 693.779 c
-53.842 693.390 53.616 692.844 53.616 692.294 c
-53.616 691.744 53.842 691.198 54.231 690.809 c
-54.620 690.421 55.166 690.194 55.716 690.194 c
-56.266 690.194 56.812 690.421 57.201 690.809 c
-57.589 691.198 57.816 691.744 57.816 692.294 c f
-BT 64.016 677.189 Td /F3 12.0 Tf  [(a >> b)] TJ ET
-BT 107.216 677.189 Td /F2 12.0 Tf  [( : le décalage vers la droite. Décale )] TJ ET
-BT 278.156 677.189 Td /F3 12.0 Tf  [(a)] TJ ET
-BT 285.356 677.189 Td /F2 12.0 Tf  [( de )] TJ ET
-BT 302.684 677.189 Td /F3 12.0 Tf  [(b)] TJ ET
-BT 309.884 677.189 Td /F2 12.0 Tf  [( bits. Les bits rajoutés à gauche valent 0. Les bits )] TJ ET
-BT 64.016 662.933 Td /F2 12.0 Tf  [(qui ne peuvent pas être stockés à droite \(par exemple, on ne peut pas stocker de 0ème bit\) sont effacés. )] TJ ET
-BT 64.016 648.677 Td /F2 12.0 Tf  [(Cela est équivalent à )] TJ ET
-BT 166.664 648.677 Td /F3 12.0 Tf  [(E\(a / 2^b\))] TJ ET
-BT 238.664 648.677 Td /F2 12.0 Tf  [(, où )] TJ ET
-BT 259.664 648.677 Td /F3 12.0 Tf  [(E)] TJ ET
-BT 266.864 648.677 Td /F2 12.0 Tf  [( est la fonction partie entière)] TJ ET
-BT 64.016 622.421 Td /F2 12.0 Tf  [(Exemple : )] TJ ET
-BT 116.012 622.421 Td /F3 12.0 Tf  [(01011101 >> 3 = 00001011)] TJ ET
-57.816 599.270 m 
-57.816 599.820 57.589 600.366 57.201 600.755 c
-56.812 601.144 56.266 601.370 55.716 601.370 c
-55.166 601.370 54.620 601.144 54.231 600.755 c
-53.842 600.366 53.616 599.820 53.616 599.270 c
-53.616 598.720 53.842 598.174 54.231 597.785 c
-54.620 597.397 55.166 597.170 55.716 597.170 c
-56.266 597.170 56.812 597.397 57.201 597.785 c
-57.589 598.174 57.816 598.720 57.816 599.270 c f
-BT 64.016 584.165 Td /F3 12.0 Tf  [(a & b)] TJ ET
-BT 100.016 584.165 Td /F2 12.0 Tf  [( : ET binaire. Agit comme un opérateur ET pour chaque bit des 2 nombres)] TJ ET
-BT 64.016 557.909 Td /F2 12.0 Tf  [(Exemple : )] TJ ET
-BT 116.012 557.909 Td /F3 12.0 Tf  [(01011001 & 10011101 = 00011001)] TJ ET
-BT 332.012 557.909 Td /F2 12.0 Tf  [( : seuls les bits 1, 4 et 5 valent 1 dans les 2 )] TJ ET
-BT 64.016 543.653 Td /F2 12.0 Tf  [(nombres)] TJ ET
-BT 34.016 505.397 Td /F2 12.0 Tf  [(Cela nous permet de faire des opérations très utiles)] TJ ET
-57.816 482.246 m 
-57.816 482.796 57.589 483.342 57.201 483.731 c
-56.812 484.120 56.266 484.346 55.716 484.346 c
-55.166 484.346 54.620 484.120 54.231 483.731 c
-53.842 483.342 53.616 482.796 53.616 482.246 c
-53.616 481.696 53.842 481.150 54.231 480.761 c
-54.620 480.373 55.166 480.146 55.716 480.146 c
-56.266 480.146 56.812 480.373 57.201 480.761 c
-57.589 481.150 57.816 481.696 57.816 482.246 c f
-BT 64.016 479.141 Td /F2 12.0 Tf  [(Récupérer le )] TJ ET
-BT 127.988 479.141 Td /F3 12.0 Tf  [(n)] TJ ET
-BT 135.188 479.141 Td /F2 12.0 Tf  [(-ème bit d'un nombre )] TJ ET
-BT 240.668 479.141 Td /F3 12.0 Tf  [(a)] TJ ET
-BT 247.868 479.141 Td /F2 12.0 Tf  [( : Il faut isoler ce bit. Pour cela, on place ce bit en première )] TJ ET
-BT 64.016 464.885 Td /F2 12.0 Tf  [(position \()] TJ ET
-BT 109.688 464.885 Td /F3 12.0 Tf  [(b = a >> \(n - 1\))] TJ ET
-BT 224.888 464.885 Td /F2 12.0 Tf  [( : on soustrait 1 à n, car on commence à compter à partir de 1, mais )] TJ ET
-BT 64.016 450.629 Td /F2 12.0 Tf  [(la valeur nulle de l'opérateur est 0\). Il faut ensuite faire en sorte que tous les bits soient égaux à 0, sauf )] TJ ET
-BT 64.016 436.373 Td /F2 12.0 Tf  [(le premier, de façon à isoler le bit \()] TJ ET
-BT 232.304 436.373 Td /F3 12.0 Tf  [(b & 1)] TJ ET
-BT 268.304 436.373 Td /F2 12.0 Tf  [(\). Pour récupérer le )] TJ ET
-BT 363.932 436.373 Td /F3 12.0 Tf  [(n)] TJ ET
-BT 371.132 436.373 Td /F2 12.0 Tf  [(-ème bit du nombre )] TJ ET
-BT 468.452 436.373 Td /F3 12.0 Tf  [(a)] TJ ET
-BT 475.652 436.373 Td /F2 12.0 Tf  [(, on fera donc )] TJ ET
-BT 64.016 423.562 Td /F3 12.0 Tf  [(\(a << \(n - 1\)\) & 1)] TJ ET
-BT 34.016 397.667 Td /F2 12.0 Tf  [(Nous appellerons un )] TJ ET
-BT 135.668 397.667 Td /F4 12.0 Tf  [(swap)] TJ ET
-BT 160.340 397.667 Td /F2 12.0 Tf  [( un échange de 2 valeurs dans un tableau)] TJ ET
-BT 34.016 362.769 Td /F1 18.0 Tf  [(3. Programme en C)] TJ ET
-BT 34.016 330.208 Td /F1 14.0 Tf  [(3.1 Approche)] TJ ET
-BT 34.016 303.468 Td /F2 12.0 Tf  [(Le but est de lire un fichier, contenant toutes les façons de combiner les nombres entre eux.)] TJ ET
-BT 34.016 275.273 Td /F1 14.0 Tf  [(3.2 Syntaxe du fichier de combinaisons)] TJ ET
-BT 34.016 248.532 Td /F2 12.0 Tf  [(Le fichier s'appelle )] TJ ET
-BT 128.480 248.532 Td /F3 12.0 Tf  [(combinations)] TJ ET
-BT 214.880 248.532 Td /F2 12.0 Tf  [(. Il est localisé dans le dossier )] TJ ET
-BT 360.860 248.532 Td /F3 12.0 Tf  [(/c/)] TJ ET
-BT 382.460 248.532 Td /F2 12.0 Tf  [( La syntaxe est très simple :)] TJ ET
-57.816 225.381 m 
-57.816 225.931 57.589 226.477 57.201 226.866 c
-56.812 227.255 56.266 227.481 55.716 227.481 c
-55.166 227.481 54.620 227.255 54.231 226.866 c
-53.842 226.477 53.616 225.931 53.616 225.381 c
-53.616 224.831 53.842 224.285 54.231 223.896 c
-54.620 223.507 55.166 223.281 55.716 223.281 c
-56.266 223.281 56.812 223.507 57.201 223.896 c
-57.589 224.285 57.816 224.831 57.816 225.381 c f
-BT 64.016 222.276 Td /F2 12.0 Tf  [(Les caractères )] TJ ET
-BT 135.308 222.276 Td /F3 12.0 Tf  [(a)] TJ ET
-BT 142.508 222.276 Td /F2 12.0 Tf  [(, )] TJ ET
-BT 148.508 222.276 Td /F3 12.0 Tf  [(b)] TJ ET
-BT 155.708 222.276 Td /F2 12.0 Tf  [( et )] TJ ET
-BT 170.372 222.276 Td /F3 12.0 Tf  [(c)] TJ ET
-BT 177.572 222.276 Td /F2 12.0 Tf  [( représentent respectivement les première, deuxième et troisième valeurs )] TJ ET
-BT 64.016 208.020 Td /F2 12.0 Tf  [(entrées par l'utilisateur.)] TJ ET
-57.816 196.869 m 
-57.816 197.419 57.589 197.965 57.201 198.354 c
-56.812 198.743 56.266 198.969 55.716 198.969 c
-55.166 198.969 54.620 198.743 54.231 198.354 c
-53.842 197.965 53.616 197.419 53.616 196.869 c
-53.616 196.319 53.842 195.773 54.231 195.384 c
-54.620 194.995 55.166 194.769 55.716 194.769 c
-56.266 194.769 56.812 194.995 57.201 195.384 c
-57.589 195.773 57.816 196.319 57.816 196.869 c f
-BT 64.016 193.764 Td /F2 12.0 Tf  [(Les caractères )] TJ ET
-BT 135.308 193.764 Td /F3 12.0 Tf  [(+)] TJ ET
-BT 142.508 193.764 Td /F2 12.0 Tf  [(, )] TJ ET
-BT 148.508 193.764 Td /F3 12.0 Tf  [(-)] TJ ET
-BT 155.708 193.764 Td /F2 12.0 Tf  [(, )] TJ ET
-BT 161.708 193.764 Td /F3 12.0 Tf  [(*)] TJ ET
-BT 168.908 193.764 Td /F2 12.0 Tf  [( et )] TJ ET
-BT 183.572 193.764 Td /F3 12.0 Tf  [(/)] TJ ET
-BT 190.772 193.764 Td /F2 12.0 Tf  [( représentent respectivement une addition, une soustraction, une )] TJ ET
-BT 64.016 179.508 Td /F2 12.0 Tf  [(multiplication et une division.)] TJ ET
-57.816 168.357 m 
-57.816 168.907 57.589 169.453 57.201 169.842 c
-56.812 170.231 56.266 170.457 55.716 170.457 c
-55.166 170.457 54.620 170.231 54.231 169.842 c
-53.842 169.453 53.616 168.907 53.616 168.357 c
-53.616 167.807 53.842 167.261 54.231 166.872 c
-54.620 166.483 55.166 166.257 55.716 166.257 c
-56.266 166.257 56.812 166.483 57.201 166.872 c
-57.589 167.261 57.816 167.807 57.816 168.357 c f
-BT 64.016 165.252 Td /F2 12.0 Tf  [(Les 7 caractères décrits dans les 2 premiers points ne doivent pas être séparés par des espaces)] TJ ET
-57.816 154.101 m 
-57.816 154.651 57.589 155.197 57.201 155.586 c
-56.812 155.975 56.266 156.201 55.716 156.201 c
-55.166 156.201 54.620 155.975 54.231 155.586 c
-53.842 155.197 53.616 154.651 53.616 154.101 c
-53.616 153.551 53.842 153.005 54.231 152.616 c
-54.620 152.227 55.166 152.001 55.716 152.001 c
-56.266 152.001 56.812 152.227 57.201 152.616 c
-57.589 153.005 57.816 153.551 57.816 154.101 c f
-BT 64.016 150.996 Td /F2 12.0 Tf  [(Une ligne commençant par )] TJ ET
-BT 196.652 150.996 Td /F3 12.0 Tf  [(;)] TJ ET
-BT 203.852 150.996 Td /F2 12.0 Tf  [( est un commentaire et sera ignorée)] TJ ET
-57.816 139.845 m 
-57.816 140.395 57.589 140.941 57.201 141.330 c
-56.812 141.719 56.266 141.945 55.716 141.945 c
-55.166 141.945 54.620 141.719 54.231 141.330 c
-53.842 140.941 53.616 140.395 53.616 139.845 c
-53.616 139.295 53.842 138.749 54.231 138.360 c
-54.620 137.971 55.166 137.745 55.716 137.745 c
-56.266 137.745 56.812 137.971 57.201 138.360 c
-57.589 138.749 57.816 139.295 57.816 139.845 c f
-BT 64.016 136.740 Td /F2 12.0 Tf  [(Le fichier doit se finir par une ligne vide)] TJ ET
-BT 34.016 108.545 Td /F1 14.0 Tf  [(3.3 Lecture du fichier)] TJ ET
-BT 34.016 81.805 Td /F2 12.0 Tf  [(Pour lire le fichier, on ne peut pas stocker tous les caractères dans un tableau, car on ne connaît pas encore la )] TJ ET
-BT 34.016 67.549 Td /F2 12.0 Tf  [(taille du fichier.)] TJ ET
+BT 34.016 784.469 Td /F2 12.0 Tf  [(Il existe quelques opérateurs importants :)] TJ ET
+0.000 0.000 0.000 RG
+57.816 761.318 m 
+57.816 761.868 57.589 762.414 57.201 762.803 c
+56.812 763.192 56.266 763.418 55.716 763.418 c
+55.166 763.418 54.620 763.192 54.231 762.803 c
+53.842 762.414 53.616 761.868 53.616 761.318 c
+53.616 760.768 53.842 760.222 54.231 759.833 c
+54.620 759.445 55.166 759.218 55.716 759.218 c
+56.266 759.218 56.812 759.445 57.201 759.833 c
+57.589 760.222 57.816 760.768 57.816 761.318 c f
+BT 64.016 746.213 Td /F3 12.0 Tf  [(a << b)] TJ ET
+BT 107.216 746.213 Td /F2 12.0 Tf  [( : le décalage vers la gauche. Décale )] TJ ET
+BT 284.144 746.213 Td /F3 12.0 Tf  [(a)] TJ ET
+BT 291.344 746.213 Td /F2 12.0 Tf  [( de )] TJ ET
+BT 308.672 746.213 Td /F3 12.0 Tf  [(b)] TJ ET
+BT 315.872 746.213 Td /F2 12.0 Tf  [( bits. Les bits rajoutés à droite valent 0. Les bits )] TJ ET
+BT 64.016 731.957 Td /F2 12.0 Tf  [(qui ne peuvent pas être stockés à gauche \(par exemple, on ne peut pas stocker de 9ème bit dans un )] TJ ET
+BT 64.016 717.701 Td /F2 12.0 Tf  [(octet = 8 bits\) sont effacés. Cela est équivalent à )] TJ ET
+BT 299.072 717.701 Td /F3 12.0 Tf  [(\(a x 2^b\) % N)] TJ ET
+BT 392.672 717.701 Td /F2 12.0 Tf  [(, où )] TJ ET
+BT 413.672 717.701 Td /F3 12.0 Tf  [(N)] TJ ET
+BT 420.872 717.701 Td /F2 12.0 Tf  [( est la valeur maximale )] TJ ET
+BT 64.016 703.445 Td /F2 12.0 Tf  [(codable \(256 pour un octet\))] TJ ET
+BT 64.016 677.189 Td /F2 12.0 Tf  [(Exemple : )] TJ ET
+BT 116.012 677.189 Td /F3 12.0 Tf  [(01011101 << 3 = 11101000)] TJ ET
+57.816 654.038 m 
+57.816 654.588 57.589 655.134 57.201 655.523 c
+56.812 655.912 56.266 656.138 55.716 656.138 c
+55.166 656.138 54.620 655.912 54.231 655.523 c
+53.842 655.134 53.616 654.588 53.616 654.038 c
+53.616 653.488 53.842 652.942 54.231 652.553 c
+54.620 652.165 55.166 651.938 55.716 651.938 c
+56.266 651.938 56.812 652.165 57.201 652.553 c
+57.589 652.942 57.816 653.488 57.816 654.038 c f
+BT 64.016 638.933 Td /F3 12.0 Tf  [(a >> b)] TJ ET
+BT 107.216 638.933 Td /F2 12.0 Tf  [( : le décalage vers la droite. Décale )] TJ ET
+BT 278.156 638.933 Td /F3 12.0 Tf  [(a)] TJ ET
+BT 285.356 638.933 Td /F2 12.0 Tf  [( de )] TJ ET
+BT 302.684 638.933 Td /F3 12.0 Tf  [(b)] TJ ET
+BT 309.884 638.933 Td /F2 12.0 Tf  [( bits. Les bits rajoutés à gauche valent 0. Les bits )] TJ ET
+BT 64.016 624.677 Td /F2 12.0 Tf  [(qui ne peuvent pas être stockés à droite \(par exemple, on ne peut pas stocker de 0ème bit\) sont effacés. )] TJ ET
+BT 64.016 610.421 Td /F2 12.0 Tf  [(Cela est équivalent à )] TJ ET
+BT 166.664 610.421 Td /F3 12.0 Tf  [(E\(a / 2^b\))] TJ ET
+BT 238.664 610.421 Td /F2 12.0 Tf  [(, où )] TJ ET
+BT 259.664 610.421 Td /F3 12.0 Tf  [(E)] TJ ET
+BT 266.864 610.421 Td /F2 12.0 Tf  [( est la fonction partie entière)] TJ ET
+BT 64.016 584.165 Td /F2 12.0 Tf  [(Exemple : )] TJ ET
+BT 116.012 584.165 Td /F3 12.0 Tf  [(01011101 >> 3 = 00001011)] TJ ET
+57.816 561.014 m 
+57.816 561.564 57.589 562.110 57.201 562.499 c
+56.812 562.888 56.266 563.114 55.716 563.114 c
+55.166 563.114 54.620 562.888 54.231 562.499 c
+53.842 562.110 53.616 561.564 53.616 561.014 c
+53.616 560.464 53.842 559.918 54.231 559.529 c
+54.620 559.141 55.166 558.914 55.716 558.914 c
+56.266 558.914 56.812 559.141 57.201 559.529 c
+57.589 559.918 57.816 560.464 57.816 561.014 c f
+BT 64.016 545.909 Td /F3 12.0 Tf  [(a & b)] TJ ET
+BT 100.016 545.909 Td /F2 12.0 Tf  [( : ET binaire. Agit comme un opérateur ET pour chaque bit des 2 nombres)] TJ ET
+BT 64.016 519.653 Td /F2 12.0 Tf  [(Exemple : )] TJ ET
+BT 116.012 519.653 Td /F3 12.0 Tf  [(01011001 & 10011101 = 00011001)] TJ ET
+BT 332.012 519.653 Td /F2 12.0 Tf  [( : seuls les bits 1, 4 et 5 valent 1 dans les 2 )] TJ ET
+BT 64.016 505.397 Td /F2 12.0 Tf  [(nombres)] TJ ET
+BT 34.016 467.141 Td /F2 12.0 Tf  [(Cela nous permet de faire des opérations très utiles)] TJ ET
+57.816 443.990 m 
+57.816 444.540 57.589 445.086 57.201 445.475 c
+56.812 445.864 56.266 446.090 55.716 446.090 c
+55.166 446.090 54.620 445.864 54.231 445.475 c
+53.842 445.086 53.616 444.540 53.616 443.990 c
+53.616 443.440 53.842 442.894 54.231 442.505 c
+54.620 442.117 55.166 441.890 55.716 441.890 c
+56.266 441.890 56.812 442.117 57.201 442.505 c
+57.589 442.894 57.816 443.440 57.816 443.990 c f
+BT 64.016 440.885 Td /F2 12.0 Tf  [(Récupérer le )] TJ ET
+BT 127.988 440.885 Td /F3 12.0 Tf  [(n)] TJ ET
+BT 135.188 440.885 Td /F2 12.0 Tf  [(-ème bit d'un nombre )] TJ ET
+BT 240.668 440.885 Td /F3 12.0 Tf  [(a)] TJ ET
+BT 247.868 440.885 Td /F2 12.0 Tf  [( : Il faut isoler ce bit. Pour cela, on place ce bit en première )] TJ ET
+BT 64.016 426.629 Td /F2 12.0 Tf  [(position \()] TJ ET
+BT 109.688 426.629 Td /F3 12.0 Tf  [(b = a >> \(n - 1\))] TJ ET
+BT 224.888 426.629 Td /F2 12.0 Tf  [( : on soustrait 1 à n, car on commence à compter à partir de 1, mais )] TJ ET
+BT 64.016 412.373 Td /F2 12.0 Tf  [(la valeur nulle de l'opérateur est 0\). Il faut ensuite faire en sorte que tous les bits soient égaux à 0, sauf )] TJ ET
+BT 64.016 398.117 Td /F2 12.0 Tf  [(le premier, de façon à isoler le bit \()] TJ ET
+BT 232.304 398.117 Td /F3 12.0 Tf  [(b & 1)] TJ ET
+BT 268.304 398.117 Td /F2 12.0 Tf  [(\). Pour récupérer le )] TJ ET
+BT 363.932 398.117 Td /F3 12.0 Tf  [(n)] TJ ET
+BT 371.132 398.117 Td /F2 12.0 Tf  [(-ème bit du nombre )] TJ ET
+BT 468.452 398.117 Td /F3 12.0 Tf  [(a)] TJ ET
+BT 475.652 398.117 Td /F2 12.0 Tf  [(, on fera donc )] TJ ET
+BT 64.016 385.306 Td /F3 12.0 Tf  [(\(a << \(n - 1\)\) & 1)] TJ ET
+BT 34.016 359.411 Td /F2 12.0 Tf  [(Nous appellerons un )] TJ ET
+BT 135.668 359.411 Td /F4 12.0 Tf  [(swap)] TJ ET
+BT 160.340 359.411 Td /F2 12.0 Tf  [( un échange de 2 valeurs dans un tableau)] TJ ET
+BT 34.016 324.513 Td /F1 18.0 Tf  [(3. Programme en C)] TJ ET
+BT 34.016 291.952 Td /F1 14.0 Tf  [(3.1 Approche)] TJ ET
+BT 34.016 265.212 Td /F2 12.0 Tf  [(Le but est de lire un fichier, contenant toutes les façons de combiner les nombres entre eux.)] TJ ET
+BT 34.016 237.017 Td /F1 14.0 Tf  [(3.2 Syntaxe du fichier de combinaisons)] TJ ET
+BT 34.016 210.276 Td /F2 12.0 Tf  [(Le fichier s'appelle )] TJ ET
+BT 128.480 210.276 Td /F3 12.0 Tf  [(combinations)] TJ ET
+BT 214.880 210.276 Td /F2 12.0 Tf  [(. Il est localisé dans le dossier )] TJ ET
+BT 360.860 210.276 Td /F3 12.0 Tf  [(/c/)] TJ ET
+BT 382.460 210.276 Td /F2 12.0 Tf  [( La syntaxe est très simple :)] TJ ET
+57.816 187.125 m 
+57.816 187.675 57.589 188.221 57.201 188.610 c
+56.812 188.999 56.266 189.225 55.716 189.225 c
+55.166 189.225 54.620 188.999 54.231 188.610 c
+53.842 188.221 53.616 187.675 53.616 187.125 c
+53.616 186.575 53.842 186.029 54.231 185.640 c
+54.620 185.251 55.166 185.025 55.716 185.025 c
+56.266 185.025 56.812 185.251 57.201 185.640 c
+57.589 186.029 57.816 186.575 57.816 187.125 c f
+BT 64.016 184.020 Td /F2 12.0 Tf  [(Les caractères )] TJ ET
+BT 135.308 184.020 Td /F3 12.0 Tf  [(a)] TJ ET
+BT 142.508 184.020 Td /F2 12.0 Tf  [(, )] TJ ET
+BT 148.508 184.020 Td /F3 12.0 Tf  [(b)] TJ ET
+BT 155.708 184.020 Td /F2 12.0 Tf  [( et )] TJ ET
+BT 170.372 184.020 Td /F3 12.0 Tf  [(c)] TJ ET
+BT 177.572 184.020 Td /F2 12.0 Tf  [( représentent respectivement les première, deuxième et troisième valeurs )] TJ ET
+BT 64.016 169.764 Td /F2 12.0 Tf  [(entrées par l'utilisateur.)] TJ ET
+57.816 158.613 m 
+57.816 159.163 57.589 159.709 57.201 160.098 c
+56.812 160.487 56.266 160.713 55.716 160.713 c
+55.166 160.713 54.620 160.487 54.231 160.098 c
+53.842 159.709 53.616 159.163 53.616 158.613 c
+53.616 158.063 53.842 157.517 54.231 157.128 c
+54.620 156.739 55.166 156.513 55.716 156.513 c
+56.266 156.513 56.812 156.739 57.201 157.128 c
+57.589 157.517 57.816 158.063 57.816 158.613 c f
+BT 64.016 155.508 Td /F2 12.0 Tf  [(Les caractères )] TJ ET
+BT 135.308 155.508 Td /F3 12.0 Tf  [(+)] TJ ET
+BT 142.508 155.508 Td /F2 12.0 Tf  [(, )] TJ ET
+BT 148.508 155.508 Td /F3 12.0 Tf  [(-)] TJ ET
+BT 155.708 155.508 Td /F2 12.0 Tf  [(, )] TJ ET
+BT 161.708 155.508 Td /F3 12.0 Tf  [(*)] TJ ET
+BT 168.908 155.508 Td /F2 12.0 Tf  [( et )] TJ ET
+BT 183.572 155.508 Td /F3 12.0 Tf  [(/)] TJ ET
+BT 190.772 155.508 Td /F2 12.0 Tf  [( représentent respectivement une addition, une soustraction, une )] TJ ET
+BT 64.016 141.252 Td /F2 12.0 Tf  [(multiplication et une division.)] TJ ET
+57.816 130.101 m 
+57.816 130.651 57.589 131.197 57.201 131.586 c
+56.812 131.975 56.266 132.201 55.716 132.201 c
+55.166 132.201 54.620 131.975 54.231 131.586 c
+53.842 131.197 53.616 130.651 53.616 130.101 c
+53.616 129.551 53.842 129.005 54.231 128.616 c
+54.620 128.227 55.166 128.001 55.716 128.001 c
+56.266 128.001 56.812 128.227 57.201 128.616 c
+57.589 129.005 57.816 129.551 57.816 130.101 c f
+BT 64.016 126.996 Td /F2 12.0 Tf  [(Les 7 caractères décrits dans les 2 premiers points ne doivent pas être séparés par des espaces)] TJ ET
+57.816 115.845 m 
+57.816 116.395 57.589 116.941 57.201 117.330 c
+56.812 117.719 56.266 117.945 55.716 117.945 c
+55.166 117.945 54.620 117.719 54.231 117.330 c
+53.842 116.941 53.616 116.395 53.616 115.845 c
+53.616 115.295 53.842 114.749 54.231 114.360 c
+54.620 113.971 55.166 113.745 55.716 113.745 c
+56.266 113.745 56.812 113.971 57.201 114.360 c
+57.589 114.749 57.816 115.295 57.816 115.845 c f
+BT 64.016 112.740 Td /F2 12.0 Tf  [(Une ligne commençant par )] TJ ET
+BT 196.652 112.740 Td /F3 12.0 Tf  [(;)] TJ ET
+BT 203.852 112.740 Td /F2 12.0 Tf  [( est un commentaire et sera ignorée)] TJ ET
+57.816 101.589 m 
+57.816 102.139 57.589 102.685 57.201 103.074 c
+56.812 103.463 56.266 103.689 55.716 103.689 c
+55.166 103.689 54.620 103.463 54.231 103.074 c
+53.842 102.685 53.616 102.139 53.616 101.589 c
+53.616 101.039 53.842 100.493 54.231 100.104 c
+54.620 99.715 55.166 99.489 55.716 99.489 c
+56.266 99.489 56.812 99.715 57.201 100.104 c
+57.589 100.493 57.816 101.039 57.816 101.589 c f
+BT 64.016 98.484 Td /F2 12.0 Tf  [(Le fichier doit se finir par une ligne vide)] TJ ET
+BT 34.016 70.289 Td /F1 14.0 Tf  [(3.3 Lecture du fichier)] TJ ET
 endstream
 endobj
-39 0 obj
+45 0 obj
 << /Type /Font
 /Subtype /Type1
 /Name /F4
 /BaseFont /Times-Italic
 /Encoding /WinAnsiEncoding
 >>
-endobj
-40 0 obj
-<< /Type /Page
-/Parent 3 0 R
-/Contents 41 0 R
->>
-endobj
-41 0 obj
-<<
-/Length 8776 >>
-stream
-
-0.000 0.000 0.000 rg
-0.000 0.000 0.000 RG
-0.6 w 0 J [  ] 0 d
-BT 34.016 784.469 Td /F2 12.0 Tf  [(On peut parser le fichier au fur et à mesure que l'on le lit. Il faudra pour cela stocker le résultat courant du )] TJ ET
-BT 34.016 770.213 Td /F2 12.0 Tf  [(calcul ainsi que la dernière opération lue. Par exemple, si les 3 nombres choisis par l'utilisateur sont 1, 2 et 3, )] TJ ET
-BT 34.016 755.957 Td /F2 12.0 Tf  [(et que le calcul est )] TJ ET
-BT 125.660 755.957 Td /F3 12.0 Tf  [(b/a*c)] TJ ET
-BT 161.660 755.957 Td /F2 12.0 Tf  [(, on fera :)] TJ ET
-57.816 732.806 m 
-57.816 733.356 57.589 733.902 57.201 734.291 c
-56.812 734.680 56.266 734.906 55.716 734.906 c
-55.166 734.906 54.620 734.680 54.231 734.291 c
-53.842 733.902 53.616 733.356 53.616 732.806 c
-53.616 732.256 53.842 731.710 54.231 731.321 c
-54.620 730.933 55.166 730.706 55.716 730.706 c
-56.266 730.706 56.812 730.933 57.201 731.321 c
-57.589 731.710 57.816 732.256 57.816 732.806 c f
-BT 64.016 729.701 Td /F2 12.0 Tf  [(Par défaut, le résultat vaut 0)] TJ ET
-57.816 718.550 m 
-57.816 719.100 57.589 719.646 57.201 720.035 c
-56.812 720.424 56.266 720.650 55.716 720.650 c
-55.166 720.650 54.620 720.424 54.231 720.035 c
-53.842 719.646 53.616 719.100 53.616 718.550 c
-53.616 718.000 53.842 717.454 54.231 717.065 c
-54.620 716.677 55.166 716.450 55.716 716.450 c
-56.266 716.450 56.812 716.677 57.201 717.065 c
-57.589 717.454 57.816 718.000 57.816 718.550 c f
-BT 64.016 715.445 Td /F2 12.0 Tf  [(Par défaut, la dernière opération est une addition)] TJ ET
-57.816 704.294 m 
-57.816 704.844 57.589 705.390 57.201 705.779 c
-56.812 706.168 56.266 706.394 55.716 706.394 c
-55.166 706.394 54.620 706.168 54.231 705.779 c
-53.842 705.390 53.616 704.844 53.616 704.294 c
-53.616 703.744 53.842 703.198 54.231 702.809 c
-54.620 702.421 55.166 702.194 55.716 702.194 c
-56.266 702.194 56.812 702.421 57.201 702.809 c
-57.589 703.198 57.816 703.744 57.816 704.294 c f
-BT 64.016 701.189 Td /F2 12.0 Tf  [(On lit le premier caractère, c'est un )] TJ ET
-BT 234.788 701.189 Td /F3 12.0 Tf  [(b)] TJ ET
-BT 241.988 701.189 Td /F2 12.0 Tf  [(. On ajoute donc le deuxième terme de la liste de nombre \(2\) au )] TJ ET
-BT 64.016 686.933 Td /F2 12.0 Tf  [(résultat, puisque la dernière opération était une addition. Le résultat vaut donc désormais 0 + 2 = 2)] TJ ET
-57.816 675.782 m 
-57.816 676.332 57.589 676.878 57.201 677.267 c
-56.812 677.656 56.266 677.882 55.716 677.882 c
-55.166 677.882 54.620 677.656 54.231 677.267 c
-53.842 676.878 53.616 676.332 53.616 675.782 c
-53.616 675.232 53.842 674.686 54.231 674.297 c
-54.620 673.909 55.166 673.682 55.716 673.682 c
-56.266 673.682 56.812 673.909 57.201 674.297 c
-57.589 674.686 57.816 675.232 57.816 675.782 c f
-BT 64.016 672.677 Td /F2 12.0 Tf  [(On lit le deuxième caractère, c'est un )] TJ ET
-BT 244.124 672.677 Td /F3 12.0 Tf  [(/)] TJ ET
-BT 251.324 672.677 Td /F2 12.0 Tf  [(. La dernière opération est donc désormais une division)] TJ ET
-57.816 661.526 m 
-57.816 662.076 57.589 662.622 57.201 663.011 c
-56.812 663.400 56.266 663.626 55.716 663.626 c
-55.166 663.626 54.620 663.400 54.231 663.011 c
-53.842 662.622 53.616 662.076 53.616 661.526 c
-53.616 660.976 53.842 660.430 54.231 660.041 c
-54.620 659.653 55.166 659.426 55.716 659.426 c
-56.266 659.426 56.812 659.653 57.201 660.041 c
-57.589 660.430 57.816 660.976 57.816 661.526 c f
-BT 64.016 658.421 Td /F2 12.0 Tf  [(On lit le troisième caractère, c'est un )] TJ ET
-BT 242.132 658.421 Td /F3 12.0 Tf  [(a)] TJ ET
-BT 249.332 658.421 Td /F2 12.0 Tf  [(. On divise donc le résultat par le premier terme de la liste de )] TJ ET
-BT 64.016 644.165 Td /F2 12.0 Tf  [(nombre \(1\), puisque la dernière opération était une division. Le résultat vaut donc désormais 2 / 1 = 2)] TJ ET
-57.816 633.014 m 
-57.816 633.564 57.589 634.110 57.201 634.499 c
-56.812 634.888 56.266 635.114 55.716 635.114 c
-55.166 635.114 54.620 634.888 54.231 634.499 c
-53.842 634.110 53.616 633.564 53.616 633.014 c
-53.616 632.464 53.842 631.918 54.231 631.529 c
-54.620 631.141 55.166 630.914 55.716 630.914 c
-56.266 630.914 56.812 631.141 57.201 631.529 c
-57.589 631.918 57.816 632.464 57.816 633.014 c f
-BT 64.016 629.909 Td /F2 12.0 Tf  [(On lit le quatrième caractère, c'est un )] TJ ET
-BT 245.456 629.909 Td /F3 12.0 Tf  [(*)] TJ ET
-BT 252.656 629.909 Td /F2 12.0 Tf  [( . La dernière opération est donc désormais une multiplication)] TJ ET
-57.816 618.758 m 
-57.816 619.308 57.589 619.854 57.201 620.243 c
-56.812 620.632 56.266 620.858 55.716 620.858 c
-55.166 620.858 54.620 620.632 54.231 620.243 c
-53.842 619.854 53.616 619.308 53.616 618.758 c
-53.616 618.208 53.842 617.662 54.231 617.273 c
-54.620 616.885 55.166 616.658 55.716 616.658 c
-56.266 616.658 56.812 616.885 57.201 617.273 c
-57.589 617.662 57.816 618.208 57.816 618.758 c f
-BT 64.016 615.653 Td /F2 12.0 Tf  [(On lit le cinquième caractère, c'est un )] TJ ET
-BT 247.460 615.653 Td /F3 12.0 Tf  [(c)] TJ ET
-BT 254.660 615.653 Td /F2 12.0 Tf  [( . On divise donc le résultat par le troisième terme de la liste de )] TJ ET
-BT 64.016 601.397 Td /F2 12.0 Tf  [(nombre \(3\), puisque la dernière opération était une multiplication. Le résultat vaut donc désormais 2 * )] TJ ET
-BT 64.016 587.141 Td /F2 12.0 Tf  [(3 = 6)] TJ ET
-57.816 575.990 m 
-57.816 576.540 57.589 577.086 57.201 577.475 c
-56.812 577.864 56.266 578.090 55.716 578.090 c
-55.166 578.090 54.620 577.864 54.231 577.475 c
-53.842 577.086 53.616 576.540 53.616 575.990 c
-53.616 575.440 53.842 574.894 54.231 574.505 c
-54.620 574.117 55.166 573.890 55.716 573.890 c
-56.266 573.890 56.812 574.117 57.201 574.505 c
-57.589 574.894 57.816 575.440 57.816 575.990 c f
-BT 64.016 572.885 Td /F2 12.0 Tf  [(On lit le caractère suivant. C'est un retour à la ligne, la ligne est donc finie. Le résultat final est donc 6)] TJ ET
-BT 34.016 537.987 Td /F1 18.0 Tf  [(4. Programme en Python)] TJ ET
-BT 34.016 505.427 Td /F1 14.0 Tf  [(4.1 Approche)] TJ ET
-BT 34.016 478.686 Td /F2 12.0 Tf  [(Le but est de parcourir les nombres et de trouver quelle combinaison de nombres et d'opérations chaque )] TJ ET
-BT 34.016 464.430 Td /F2 12.0 Tf  [(nombre représente On fera 2 boucles principales, imbriquées les unes dans les autres. La première boucle )] TJ ET
-BT 34.016 450.174 Td /F2 12.0 Tf  [(comptera le nombre d'opérations que l'on fera \(entre 0 et 2\). La seconde sera la boucle qui permettra de )] TJ ET
-BT 34.016 435.918 Td /F2 12.0 Tf  [(parcourir les nombres)] TJ ET
-BT 34.016 407.723 Td /F1 14.0 Tf  [(4.2 Représentation binaire des opérations)] TJ ET
-BT 34.016 380.982 Td /F2 12.0 Tf  [(Une opération est définie sur 2 bits. Voici le tableau de représentation des opérations :)] TJ ET
-BT 51.602 352.779 Td /F1 12.0 Tf  [(00)] TJ ET
-BT 105.938 352.779 Td /F1 12.0 Tf  [(01)] TJ ET
-BT 173.276 352.779 Td /F1 12.0 Tf  [(10)] TJ ET
-BT 231.284 352.779 Td /F1 12.0 Tf  [(11)] TJ ET
-BT 36.266 335.523 Td /F2 12.0 Tf  [(Addition)] TJ ET
-BT 81.938 335.523 Td /F2 12.0 Tf  [(Soustraction)] TJ ET
-BT 144.938 335.523 Td /F2 12.0 Tf  [(Multiplication)] TJ ET
-BT 216.614 335.523 Td /F2 12.0 Tf  [(Division)] TJ ET
-BT 34.016 316.776 Td /F1 14.0 Tf  [(4.3 Représentation binaire d'un arrangement de 3 nombres)] TJ ET
-BT 34.016 290.035 Td /F2 12.0 Tf  [(Un arrangement de 3 nombres est défini sur 3 bits.)] TJ ET
-BT 34.016 263.779 Td /F2 12.0 Tf  [(Tout d'abord, on stocke ces 3 nombres dans un tableau. L'ordre est important, il doit toujours être le même à )] TJ ET
-BT 34.016 249.523 Td /F2 12.0 Tf  [(chaque décoder d'un nombre)] TJ ET
-BT 34.016 223.267 Td /F2 12.0 Tf  [(Si le premier bit vaut 1, alors on échange le premier et le dernier nombre du tableau de nombres)] TJ ET
-BT 34.016 197.011 Td /F2 12.0 Tf  [(Si le deuxième bit vaut 1, alors on échange les 2 premiers nombres du tableau de nombres)] TJ ET
-BT 34.016 170.755 Td /F2 12.0 Tf  [(Si le troisième bit vaut 1, alors on échange les 2 derniers nombres du tableau de nombres)] TJ ET
-BT 34.016 144.499 Td /F1 12.0 Tf  [(Exemple :)] TJ ET
-BT 34.016 118.243 Td /F2 12.0 Tf  [(Prenons le nombre 3 dont la représentation binaire est )] TJ ET
-BT 295.640 118.243 Td /F3 12.0 Tf  [(011)] TJ ET
-BT 317.240 118.243 Td /F2 12.0 Tf  [(. La liste de nombre est : )] TJ ET
-BT 438.560 118.243 Td /F3 12.0 Tf  [(1, 2, 3)] TJ ET
-BT 34.016 91.987 Td /F2 12.0 Tf  [(Le premier bit vaut 1, on fait donc un )] TJ ET
-BT 216.656 91.987 Td /F4 12.0 Tf  [(swap)] TJ ET
-BT 241.328 91.987 Td /F2 12.0 Tf  [( entre la première et la dernière valeur de la liste. On obtient ainsi )] TJ ET
-BT 34.016 77.731 Td /F2 12.0 Tf  [(la liste )] TJ ET
-BT 68.684 77.731 Td /F3 12.0 Tf  [(3, 2, 1)] TJ ET
-BT 34.016 51.475 Td /F2 12.0 Tf  [(Le deuxième bit vaut 1, on fait donc un )] TJ ET
-BT 225.992 51.475 Td /F4 12.0 Tf  [(swap)] TJ ET
-BT 250.664 51.475 Td /F2 12.0 Tf  [( entre la première et la deuxième valeur de la liste. On obtient )] TJ ET
-endstream
-endobj
-42 0 obj
-<< /Type /Page
-/Parent 3 0 R
-/Contents 43 0 R
->>
-endobj
-43 0 obj
-<<
-/Length 11495 >>
-stream
-
-0.000 0.000 0.000 rg
-0.000 0.000 0.000 RG
-0.6 w 0 J [  ] 0 d
-BT 34.016 796.469 Td /F2 12.0 Tf  [(ainsi la liste )] TJ ET
-BT 94.352 796.469 Td /F3 12.0 Tf  [(2, 3, 1)] TJ ET
-BT 34.016 770.213 Td /F2 12.0 Tf  [(Le troisième bit vaut 0, on ne fait donc pas de )] TJ ET
-BT 256.652 770.213 Td /F4 12.0 Tf  [(swap)] TJ ET
-BT 281.324 770.213 Td /F2 12.0 Tf  [(.)] TJ ET
-BT 34.016 743.957 Td /F2 12.0 Tf  [(L'arrangement représenté par le nombre 3 est donc )] TJ ET
-BT 280.100 743.957 Td /F3 12.0 Tf  [(2, 3, 1)] TJ ET
-BT 34.016 715.763 Td /F1 14.0 Tf  [(4.4 Décodage complet d'un nombre)] TJ ET
-BT 34.016 689.022 Td /F2 12.0 Tf  [(On appelle )] TJ ET
-BT 89.336 689.022 Td /F3 12.0 Tf  [(n)] TJ ET
-BT 96.536 689.022 Td /F2 12.0 Tf  [( le nombre d'opérations)] TJ ET
-57.816 665.871 m 
-57.816 666.421 57.589 666.967 57.201 667.356 c
-56.812 667.744 56.266 667.971 55.716 667.971 c
-55.166 667.971 54.620 667.744 54.231 667.356 c
-53.842 666.967 53.616 666.421 53.616 665.871 c
-53.616 665.321 53.842 664.775 54.231 664.386 c
-54.620 663.997 55.166 663.771 55.716 663.771 c
-56.266 663.771 56.812 663.997 57.201 664.386 c
-57.589 664.775 57.816 665.321 57.816 665.871 c f
-BT 64.016 662.766 Td /F2 12.0 Tf  [(Les )] TJ ET
-BT 84.344 662.766 Td /F3 12.0 Tf  [(n)] TJ ET
-BT 91.544 662.766 Td /F2 12.0 Tf  [(x2 derniers bits permettent de décrire les opérations)] TJ ET
-57.816 651.615 m 
-57.816 652.165 57.589 652.711 57.201 653.100 c
-56.812 653.488 56.266 653.715 55.716 653.715 c
-55.166 653.715 54.620 653.488 54.231 653.100 c
-53.842 652.711 53.616 652.165 53.616 651.615 c
-53.616 651.065 53.842 650.519 54.231 650.130 c
-54.620 649.741 55.166 649.515 55.716 649.515 c
-56.266 649.515 56.812 649.741 57.201 650.130 c
-57.589 650.519 57.816 651.065 57.816 651.615 c f
-BT 64.016 648.510 Td /F2 12.0 Tf  [(Les 3 derniers bits permettent de décrire l'arrangement des nombres)] TJ ET
-BT 34.016 622.254 Td /F1 12.0 Tf  [(Exemple :)] TJ ET
-BT 34.016 595.998 Td /F2 12.0 Tf  [(Prenons )] TJ ET
-BT 75.680 595.998 Td /F3 12.0 Tf  [(n)] TJ ET
-BT 82.880 595.998 Td /F2 12.0 Tf  [( = 2, et essayons de décoder le nombre 105, dont la représentation binaire est )] TJ ET
-BT 455.240 595.998 Td /F3 12.0 Tf  [(1101001)] TJ ET
-BT 505.640 595.998 Td /F2 12.0 Tf  [(. )] TJ ET
-BT 34.016 581.742 Td /F2 12.0 Tf  [(Supposons que notre liste de nombre soit )] TJ ET
-BT 234.344 581.742 Td /F3 12.0 Tf  [(1, 2, 3)] TJ ET
-BT 34.016 555.486 Td /F2 12.0 Tf  [(Puisque )] TJ ET
-BT 75.020 555.486 Td /F3 12.0 Tf  [(n)] TJ ET
-BT 82.220 555.486 Td /F2 12.0 Tf  [( = 2, on a 2 opérateurs, notre calcul sera donc de la forme : )] TJ ET
-BT 367.244 555.486 Td /F3 12.0 Tf  [(\(a <opérateur> b\) )] TJ ET
-BT 34.016 542.675 Td /F3 12.0 Tf  [(<opérateur> c)] TJ ET
-57.816 519.884 m 
-57.816 520.434 57.589 520.981 57.201 521.369 c
-56.812 521.758 56.266 521.984 55.716 521.984 c
-55.166 521.984 54.620 521.758 54.231 521.369 c
-53.842 520.981 53.616 520.434 53.616 519.884 c
-53.616 519.335 53.842 518.788 54.231 518.400 c
-54.620 518.011 55.166 517.784 55.716 517.784 c
-56.266 517.784 56.812 518.011 57.201 518.400 c
-57.589 518.788 57.816 519.335 57.816 519.884 c f
-BT 64.016 516.780 Td /F2 12.0 Tf  [(Premier opérateur : on prend les 2 derniers bits, qui sont )] TJ ET
-BT 336.644 516.780 Td /F3 12.0 Tf  [(01)] TJ ET
-BT 351.044 516.780 Td /F2 12.0 Tf  [(. Ce code représente la soustraction, donc )] TJ ET
-BT 64.016 502.524 Td /F2 12.0 Tf  [(le calcul est de la forme )] TJ ET
-BT 181.316 502.524 Td /F3 12.0 Tf  [(\(a - b\) <opérateur> c)] TJ ET
-57.816 491.372 m 
-57.816 491.922 57.589 492.469 57.201 492.857 c
-56.812 493.246 56.266 493.472 55.716 493.472 c
-55.166 493.472 54.620 493.246 54.231 492.857 c
-53.842 492.469 53.616 491.922 53.616 491.372 c
-53.616 490.823 53.842 490.276 54.231 489.888 c
-54.620 489.499 55.166 489.272 55.716 489.272 c
-56.266 489.272 56.812 489.499 57.201 489.888 c
-57.589 490.276 57.816 490.823 57.816 491.372 c f
-BT 64.016 488.268 Td /F2 12.0 Tf  [(Deuxième opérateur : on prend les 2 bits précédents, qui sont )] TJ ET
-BT 360.632 488.268 Td /F3 12.0 Tf  [(10)] TJ ET
-BT 375.032 488.268 Td /F2 12.0 Tf  [(. Ce code représente la multiplication, )] TJ ET
-BT 64.016 474.012 Td /F2 12.0 Tf  [(donc le calcul est de la forme )] TJ ET
-BT 207.644 474.012 Td /F3 12.0 Tf  [(\(a - b\) x c)] TJ ET
-57.816 462.860 m 
-57.816 463.410 57.589 463.957 57.201 464.345 c
-56.812 464.734 56.266 464.960 55.716 464.960 c
-55.166 464.960 54.620 464.734 54.231 464.345 c
-53.842 463.957 53.616 463.410 53.616 462.860 c
-53.616 462.311 53.842 461.764 54.231 461.376 c
-54.620 460.987 55.166 460.760 55.716 460.760 c
-56.266 460.760 56.812 460.987 57.201 461.376 c
-57.589 461.764 57.816 462.311 57.816 462.860 c f
-BT 64.016 459.756 Td /F4 12.0 Tf  [(swap)] TJ ET
-BT 88.688 459.756 Td /F2 12.0 Tf  [( des première et dernière valeurs : le cinquième bit vaut 0, on ne fait donc pas de swap.)] TJ ET
-57.816 448.604 m 
-57.816 449.154 57.589 449.701 57.201 450.089 c
-56.812 450.478 56.266 450.704 55.716 450.704 c
-55.166 450.704 54.620 450.478 54.231 450.089 c
-53.842 449.701 53.616 449.154 53.616 448.604 c
-53.616 448.055 53.842 447.508 54.231 447.120 c
-54.620 446.731 55.166 446.504 55.716 446.504 c
-56.266 446.504 56.812 446.731 57.201 447.120 c
-57.589 447.508 57.816 448.055 57.816 448.604 c f
-BT 64.016 445.500 Td /F4 12.0 Tf  [(swap)] TJ ET
-BT 88.688 445.500 Td /F2 12.0 Tf  [( des 2 premières valeurs : le sixième bit vaut 1, on fait donc un )] TJ ET
-BT 392.648 445.500 Td /F4 12.0 Tf  [(swap)] TJ ET
-BT 417.320 445.500 Td /F2 12.0 Tf  [( des 2 premières valeurs de )] TJ ET
-BT 64.016 431.244 Td /F2 12.0 Tf  [(notre liste. Celle-ci vaut désormais )] TJ ET
-BT 233.996 431.244 Td /F3 12.0 Tf  [(2, 1, 3)] TJ ET
-57.816 420.092 m 
-57.816 420.642 57.589 421.189 57.201 421.577 c
-56.812 421.966 56.266 422.192 55.716 422.192 c
-55.166 422.192 54.620 421.966 54.231 421.577 c
-53.842 421.189 53.616 420.642 53.616 420.092 c
-53.616 419.543 53.842 418.996 54.231 418.608 c
-54.620 418.219 55.166 417.992 55.716 417.992 c
-56.266 417.992 56.812 418.219 57.201 418.608 c
-57.589 418.996 57.816 419.543 57.816 420.092 c f
-BT 64.016 416.988 Td /F4 12.0 Tf  [(swap)] TJ ET
-BT 88.688 416.988 Td /F2 12.0 Tf  [( des 2 dernières valeurs : le septième bit vaut 1, on fait donc un )] TJ ET
-BT 394.640 416.988 Td /F4 12.0 Tf  [(swap)] TJ ET
-BT 419.312 416.988 Td /F2 12.0 Tf  [( des 2 dernières valeurs de )] TJ ET
-BT 64.016 402.732 Td /F2 12.0 Tf  [(notre liste. Celle-ci vaut désormais )] TJ ET
-BT 233.996 402.732 Td /F3 12.0 Tf  [(2, 3, 1)] TJ ET
-57.816 391.580 m 
-57.816 392.130 57.589 392.677 57.201 393.065 c
-56.812 393.454 56.266 393.680 55.716 393.680 c
-55.166 393.680 54.620 393.454 54.231 393.065 c
-53.842 392.677 53.616 392.130 53.616 391.580 c
-53.616 391.031 53.842 390.484 54.231 390.096 c
-54.620 389.707 55.166 389.480 55.716 389.480 c
-56.266 389.480 56.812 389.707 57.201 390.096 c
-57.589 390.484 57.816 391.031 57.816 391.580 c f
-BT 64.016 388.476 Td /F2 12.0 Tf  [(Calcul : en remplaçant )] TJ ET
-BT 175.328 388.476 Td /F3 12.0 Tf  [(a)] TJ ET
-BT 182.528 388.476 Td /F2 12.0 Tf  [(, )] TJ ET
-BT 188.528 388.476 Td /F3 12.0 Tf  [(b)] TJ ET
-BT 195.728 388.476 Td /F2 12.0 Tf  [( et )] TJ ET
-BT 210.392 388.476 Td /F3 12.0 Tf  [(c)] TJ ET
-BT 217.592 388.476 Td /F2 12.0 Tf  [( par les valeurs de la liste, on obtient le calcul )] TJ ET
-BT 439.556 388.476 Td /F3 12.0 Tf  [(\(2 - 3\) x 1)] TJ ET
-BT 518.756 388.476 Td /F2 12.0 Tf  [(. On )] TJ ET
-BT 64.016 374.220 Td /F2 12.0 Tf  [(doit d'abord calculer )] TJ ET
-BT 165.152 374.220 Td /F3 12.0 Tf  [(2 - 3)] TJ ET
-BT 201.152 374.220 Td /F2 12.0 Tf  [(. 2 étant inférieur à 3, on ne peut pas effectuer ce calcul, le calcul )] TJ ET
-BT 64.016 359.964 Td /F2 12.0 Tf  [(représenté par le nombre 105 n'est donc pas possible dans les règles que nous nous sommes fixées.)] TJ ET
-BT 34.016 331.769 Td /F1 14.0 Tf  [(4.5 Redondance)] TJ ET
-BT 34.016 305.028 Td /F2 12.0 Tf  [(La façon de stocker les arrangements contient de la redondance : il existe 3! = 6 arrangements possibles de 3 )] TJ ET
-BT 34.016 290.772 Td /F2 12.0 Tf  [(éléments. Nous stockons ces 6 arrangements sur 3 bits, c'est-à-dire 8 valeurs possibles. Il y a donc plusieurs )] TJ ET
-BT 34.016 276.516 Td /F2 12.0 Tf  [(valeurs qui donneront les mêmes résultats \(2 valeurs redondantes\). Celles-ci sont :)] TJ ET
-57.816 253.365 m 
-57.816 253.915 57.589 254.461 57.201 254.850 c
-56.812 255.239 56.266 255.465 55.716 255.465 c
-55.166 255.465 54.620 255.239 54.231 254.850 c
-53.842 254.461 53.616 253.915 53.616 253.365 c
-53.616 252.815 53.842 252.269 54.231 251.880 c
-54.620 251.491 55.166 251.265 55.716 251.265 c
-56.266 251.265 56.812 251.491 57.201 251.880 c
-57.589 252.269 57.816 252.815 57.816 253.365 c f
-BT 64.016 250.260 Td /F3 12.0 Tf  [(010)] TJ ET
-BT 85.616 250.260 Td /F2 12.0 Tf  [( et )] TJ ET
-BT 100.280 250.260 Td /F3 12.0 Tf  [(111)] TJ ET
-57.816 239.109 m 
-57.816 239.659 57.589 240.205 57.201 240.594 c
-56.812 240.983 56.266 241.209 55.716 241.209 c
-55.166 241.209 54.620 240.983 54.231 240.594 c
-53.842 240.205 53.616 239.659 53.616 239.109 c
-53.616 238.559 53.842 238.013 54.231 237.624 c
-54.620 237.235 55.166 237.009 55.716 237.009 c
-56.266 237.009 56.812 237.235 57.201 237.624 c
-57.589 238.013 57.816 238.559 57.816 239.109 c f
-BT 64.016 236.004 Td /F3 12.0 Tf  [(011)] TJ ET
-BT 85.616 236.004 Td /F2 12.0 Tf  [( et )] TJ ET
-BT 100.280 236.004 Td /F3 12.0 Tf  [(110)] TJ ET
-BT 34.016 209.748 Td /F2 12.0 Tf  [(Nous pouvons remarquer qu'il est inutile de parcourir les nombres de )] TJ ET
-BT 368.456 209.748 Td /F3 12.0 Tf  [(000)] TJ ET
-BT 390.056 209.748 Td /F2 12.0 Tf  [( à )] TJ ET
-BT 401.384 209.748 Td /F3 12.0 Tf  [(101)] TJ ET
-BT 422.984 209.748 Td /F2 12.0 Tf  [(. On peut se contenter de )] TJ ET
-BT 34.016 195.492 Td /F2 12.0 Tf  [(les parcourir entre )] TJ ET
-BT 124.316 195.492 Td /F3 12.0 Tf  [(000)] TJ ET
-BT 145.916 195.492 Td /F2 12.0 Tf  [( et )] TJ ET
-BT 160.580 195.492 Td /F3 12.0 Tf  [(101)] TJ ET
-BT 182.180 195.492 Td /F2 12.0 Tf  [( \(de 0 à 5 inclus\).)] TJ ET
-BT 34.016 160.594 Td /F1 18.0 Tf  [(5 Algorithme)] TJ ET
-BT 34.016 129.972 Td /F2 12.0 Tf  [(Voici l'algorithme que j'ai utilisé en C. J'utilise 4 fonctions, 1 article et 1 syntaxe que je suppose définis :)] TJ ET
-57.816 106.821 m 
-57.816 107.371 57.589 107.917 57.201 108.306 c
-56.812 108.695 56.266 108.921 55.716 108.921 c
-55.166 108.921 54.620 108.695 54.231 108.306 c
-53.842 107.917 53.616 107.371 53.616 106.821 c
-53.616 106.271 53.842 105.725 54.231 105.336 c
-54.620 104.947 55.166 104.721 55.716 104.721 c
-56.266 104.721 56.812 104.947 57.201 105.336 c
-57.589 105.725 57.816 106.271 57.816 106.821 c f
-BT 64.016 103.716 Td /F3 12.0 Tf  [(Fichier)] TJ ET
-BT 114.416 103.716 Td /F2 12.0 Tf  [( : un article représentant un fichier)] TJ ET
-57.816 92.565 m 
-57.816 93.115 57.589 93.661 57.201 94.050 c
-56.812 94.439 56.266 94.665 55.716 94.665 c
-55.166 94.665 54.620 94.439 54.231 94.050 c
-53.842 93.661 53.616 93.115 53.616 92.565 c
-53.616 92.015 53.842 91.469 54.231 91.080 c
-54.620 90.691 55.166 90.465 55.716 90.465 c
-56.266 90.465 56.812 90.691 57.201 91.080 c
-57.589 91.469 57.816 92.015 57.816 92.565 c f
-BT 64.016 89.460 Td /F3 12.0 Tf  [(OuvrirFichier)] TJ ET
-BT 157.616 89.460 Td /F2 12.0 Tf  [( : un sous-algorithme permettant d'ouvrir un fichier. Il prend en paramètre le )] TJ ET
-BT 64.016 75.204 Td /F2 12.0 Tf  [(chemin vers le fichier \(relatif ou absolu. Dans cet algorithme, j'utilise un chemin relatif\) et renvoie un )] TJ ET
-BT 64.016 60.948 Td /F2 12.0 Tf  [(fichier. Si le fichier n'existe pas, le programme crashe)] TJ ET
-endstream
-endobj
-44 0 obj
-<< /Type /Page
-/Parent 3 0 R
-/Contents 45 0 R
->>
-endobj
-45 0 obj
-<<
-/Length 9016 >>
-stream
-
-0.000 0.000 0.000 rg
-0.000 0.000 0.000 RG
-0.6 w 0 J [  ] 0 d
-57.816 799.574 m 
-57.816 800.124 57.589 800.670 57.201 801.059 c
-56.812 801.448 56.266 801.674 55.716 801.674 c
-55.166 801.674 54.620 801.448 54.231 801.059 c
-53.842 800.670 53.616 800.124 53.616 799.574 c
-53.616 799.024 53.842 798.478 54.231 798.089 c
-54.620 797.701 55.166 797.474 55.716 797.474 c
-56.266 797.474 56.812 797.701 57.201 798.089 c
-57.589 798.478 57.816 799.024 57.816 799.574 c f
-BT 64.016 796.469 Td /F3 12.0 Tf  [(FermerFichier)] TJ ET
-BT 157.616 796.469 Td /F2 12.0 Tf  [( : un sous-algorithme permettant de fermer un fichier.)] TJ ET
-57.816 785.318 m 
-57.816 785.868 57.589 786.414 57.201 786.803 c
-56.812 787.192 56.266 787.418 55.716 787.418 c
-55.166 787.418 54.620 787.192 54.231 786.803 c
-53.842 786.414 53.616 785.868 53.616 785.318 c
-53.616 784.768 53.842 784.222 54.231 783.833 c
-54.620 783.445 55.166 783.218 55.716 783.218 c
-56.266 783.218 56.812 783.445 57.201 783.833 c
-57.589 784.222 57.816 784.768 57.816 785.318 c f
-BT 64.016 782.213 Td /F2 12.0 Tf  [(Je suppose que l'on peut utiliser la fonction )] TJ ET
-BT 274.160 782.213 Td /F3 12.0 Tf  [(Lire)] TJ ET
-BT 302.960 782.213 Td /F2 12.0 Tf  [( de la manière suivante : )] TJ ET
-BT 422.936 782.213 Td /F3 12.0 Tf  [(Lire\(fichier!c\))] TJ ET
-BT 530.936 782.213 Td /F2 12.0 Tf  [(, où )] TJ ET
-BT 64.016 767.957 Td /F3 12.0 Tf  [(fichier)] TJ ET
-BT 114.416 767.957 Td /F2 12.0 Tf  [( est une variable de type )] TJ ET
-BT 233.720 767.957 Td /F3 12.0 Tf  [(Fichier)] TJ ET
-BT 284.120 767.957 Td /F2 12.0 Tf  [( et )] TJ ET
-BT 298.784 767.957 Td /F3 12.0 Tf  [(c)] TJ ET
-BT 305.984 767.957 Td /F2 12.0 Tf  [( est une variable de type caractère. La fonction lit )] TJ ET
-BT 64.016 753.701 Td /F2 12.0 Tf  [(alors un caractère dans le fichier et avance le curseur de lecture de 1. Ainsi, après un deuxième appel )] TJ ET
-BT 64.016 739.445 Td /F2 12.0 Tf  [(de la fonction, le caractère suivant sera lu.)] TJ ET
-57.816 728.294 m 
-57.816 728.844 57.589 729.390 57.201 729.779 c
-56.812 730.168 56.266 730.394 55.716 730.394 c
-55.166 730.394 54.620 730.168 54.231 729.779 c
-53.842 729.390 53.616 728.844 53.616 728.294 c
-53.616 727.744 53.842 727.198 54.231 726.809 c
-54.620 726.421 55.166 726.194 55.716 726.194 c
-56.266 726.194 56.812 726.421 57.201 726.809 c
-57.589 727.198 57.816 727.744 57.816 728.294 c f
-BT 64.016 725.189 Td /F3 12.0 Tf  [(char2int)] TJ ET
-BT 121.616 725.189 Td /F2 12.0 Tf  [( : retourne le code ASCII du caractère passé en paramètre)] TJ ET
-57.816 714.038 m 
-57.816 714.588 57.589 715.134 57.201 715.523 c
-56.812 715.912 56.266 716.138 55.716 716.138 c
-55.166 716.138 54.620 715.912 54.231 715.523 c
-53.842 715.134 53.616 714.588 53.616 714.038 c
-53.616 713.488 53.842 712.942 54.231 712.553 c
-54.620 712.165 55.166 711.938 55.716 711.938 c
-56.266 711.938 56.812 712.165 57.201 712.553 c
-57.589 712.942 57.816 713.488 57.816 714.038 c f
-BT 64.016 710.933 Td /F3 12.0 Tf  [(int2char)] TJ ET
-BT 121.616 710.933 Td /F2 12.0 Tf  [( : retourne le caractère ASCII associé au nombre passé en paramètre)] TJ ET
-BT 34.016 686.122 Td /F3 12.0 Tf  [(Programme LeCompteEstBon)] TJ ET
-BT 34.016 673.672 Td /F3 12.0 Tf  [(Variables:)] TJ ET
-BT 34.016 661.222 Td /F3 12.0 Tf  [(file : Fichier  // Le fichier que l'on lit)] TJ ET
-BT 34.016 648.771 Td /F3 12.0 Tf  [(values : entiers[1...3]  // Les 3 valeurs de l'utilisateur)] TJ ET
-BT 34.016 636.321 Td /F3 12.0 Tf  [(currChar : caractère  // Le caractère courant)] TJ ET
-BT 34.016 623.871 Td /F3 12.0 Tf  [(fileEnd : booléen  // Si on a fini de lire le fichier. Si currChar == '\\0', alors on est arrivé à la fin du fichier)] TJ ET
-BT 34.016 611.421 Td /F3 12.0 Tf  [(stop : booléen  // Calcul impossible ?)] TJ ET
-BT 34.016 598.970 Td /F3 12.0 Tf  [(possibleResults : tableau[1...74] d'entiers  // Le stockage des différents résultats que l'on a trouvés, pour éviter de donner certains résultats plusieurs fois à l'utilisateur)] TJ ET
-BT 34.016 586.520 Td /F3 12.0 Tf  [(                                             // \(par exemple, avec 1, 2 et 3, on peut faire plusieurs fois le nombre 1 : 2 - 1 = \(1 + 2\) / 3 = 1\))] TJ ET
-BT 34.016 574.070 Td /F3 12.0 Tf  [(                                             // 74 est le nombre de combinaisons d'opérations possibles)] TJ ET
-BT 34.016 561.620 Td /F3 12.0 Tf  [(possibleResultsCount : entier  // Variable de compteur permet de savoir où on en est dans le tableau possibleResults)] TJ ET
-BT 34.016 549.169 Td /F3 12.0 Tf  [(result : entier  // Résultat du calcul)] TJ ET
-BT 34.016 536.719 Td /F3 12.0 Tf  [(operation : entier  // La dernière addition lue)] TJ ET
-BT 34.016 524.269 Td /F3 12.0 Tf  [(computation : tableau[1...5] d'entiers  // La trace de notre calcul. Les 5 entiers peuvent permettre de stocker jusqu'à 3 nombres et 2 opérateurs, soit le calcul le plus long autorisé)] TJ ET
-BT 34.016 511.819 Td /F3 12.0 Tf  [(computationSize : entier  // La taille de notre calcul. C'est la somme du nombre de termes et d'opérations. Par exemple, 1 + 2 a une longueur de 3 \(2 nombre et 1 opération\))] TJ ET
-BT 34.016 499.368 Td /F3 12.0 Tf  [(i : entier  // Variable compteur)] TJ ET
-BT 34.016 486.918 Td /F3 12.0 Tf  [(value : entier  // Une valeur des valeurs entrées par l'utilisateur. Elle représente la valeur utilisée à un moment donné)] TJ ET
-BT 34.016 474.468 Td /F3 12.0 Tf  [(found : booléen  // Variable booléenne qui dit si on a trouvé ou non le résultat quand on recherche dans la liste des résultats trouvés)] TJ ET
-BT 34.016 462.018 Td /F3 12.0 Tf  [(Algorithme:)] TJ ET
-BT 34.016 449.567 Td /F3 12.0 Tf  [(// On ouvre le fichier "combinations" en lecture)] TJ ET
-BT 34.016 437.117 Td /F3 12.0 Tf  [(OuvrirFichier\("c/combinations"!file\))] TJ ET
-BT 34.016 424.667 Td /F3 12.0 Tf  [(// Entrée des 3 valeurs de l'utilisateur)] TJ ET
-BT 34.016 412.217 Td /F3 12.0 Tf  [(Pour j allant de 1 à 3 par pas de 1 faire)] TJ ET
-BT 34.016 399.767 Td /F3 12.0 Tf  [(  Ecrire\("Entrez le caractère ", j!\))] TJ ET
-BT 34.016 387.316 Td /F3 12.0 Tf  [(  Lire\(clavier!values[j]\))] TJ ET
-BT 34.016 374.866 Td /F3 12.0 Tf  [(Fin Pour)] TJ ET
-BT 34.016 362.416 Td /F3 12.0 Tf  [(fileEnd <- faux)] TJ ET
-BT 34.016 349.966 Td /F3 12.0 Tf  [(possibleResultsCount <- 0)] TJ ET
-BT 34.016 337.515 Td /F3 12.0 Tf  [(// Boucle principal : lit une ligne et calcule le résultat associé à cette ligne)] TJ ET
-BT 34.016 325.065 Td /F3 12.0 Tf  [(Tant que NON fileEnd faire)] TJ ET
-BT 34.016 312.615 Td /F3 12.0 Tf  [(  stop <- faux  // Par défaut, on suppose que le calcul est possible)] TJ ET
-BT 34.016 300.165 Td /F3 12.0 Tf  [(  result <- 0  // La valeur est modifiée au fur et à mesure que l'on lit la ligne)] TJ ET
-BT 34.016 287.714 Td /F3 12.0 Tf  [(  operation <- 0  // Par défaut, c'est l'addition : quand on traitera le premier nombre, on aura result = 0 + nombre)] TJ ET
-BT 34.016 275.264 Td /F3 12.0 Tf  [(  computationSize <- 0)] TJ ET
-BT 34.016 262.814 Td /F3 12.0 Tf  [(  // Boucle qui lit un calcul. S'arrête quand le calcul est impossible ou quand on est arrivé à la fin de la ligne)] TJ ET
-BT 34.016 250.364 Td /F3 12.0 Tf  [(  Lire\(file!currChar\)  // On lit un premier caractère)] TJ ET
-BT 34.016 237.913 Td /F3 12.0 Tf  [(  TantQue NON stop ET currChar != '\\n' faire)] TJ ET
-BT 34.016 225.463 Td /F3 12.0 Tf  [(    // Les caractères représentent les nombres du tableau "values")] TJ ET
-BT 34.016 213.013 Td /F3 12.0 Tf  [(    Si 'a' <= currChar ET currChar <= 'c' faire)] TJ ET
-BT 34.016 200.563 Td /F3 12.0 Tf  [(      value <- values[char2int\(currChar\) - char2int\('a'\)]  // "c - 'a'" retournera 1, 2, ou 3 en fonction de la valeur de c)] TJ ET
-BT 34.016 188.112 Td /F3 12.0 Tf  [(      // On regarde ce qu'il faut faire avec ce nombre. Par exemple, si c'est une multiplication, il faut multiplier le résultat par "value")] TJ ET
-BT 34.016 175.662 Td /F3 12.0 Tf  [(      Si operation = 0 faire  // Addition)] TJ ET
-BT 34.016 163.212 Td /F3 12.0 Tf  [(        result <- result + value)] TJ ET
-BT 34.016 150.762 Td /F3 12.0 Tf  [(      Sinon si operation = 1 faire  // Soustraction)] TJ ET
-BT 34.016 138.311 Td /F3 12.0 Tf  [(        // Il faut gérer le cas où on ne peut pas faire la soustraction)] TJ ET
-BT 34.016 125.861 Td /F3 12.0 Tf  [(        // Si on ne peut pas la faire, le résultat ne sera pas utilisé, on peut donc le modifier sans rien affecter. On n'a pas besoin d'inverser le calcul)] TJ ET
-BT 34.016 113.411 Td /F3 12.0 Tf  [(        result <- result - value)] TJ ET
-BT 34.016 100.961 Td /F3 12.0 Tf  [(        Si result < 0 faire)] TJ ET
-BT 34.016 88.511 Td /F3 12.0 Tf  [(          stop <- vrai)] TJ ET
-BT 34.016 76.060 Td /F3 12.0 Tf  [(        FinSi)] TJ ET
-BT 34.016 63.610 Td /F3 12.0 Tf  [(      Sinon si operation = 2 faire  // Multiplication)] TJ ET
-BT 34.016 51.160 Td /F3 12.0 Tf  [(        result <- result * value)] TJ ET
-BT 34.016 38.710 Td /F3 12.0 Tf  [(      Sinon si operation = 3 faire  // Division)] TJ ET
-BT 34.016 26.259 Td /F3 12.0 Tf  [(        // Il faut gérer le cas où on ne peut pas faire la division)] TJ ET
-endstream
 endobj
 46 0 obj
 << /Type /Page
@@ -1051,75 +613,144 @@ endobj
 endobj
 47 0 obj
 <<
-/Length 5586 >>
+/Length 8647 >>
 stream
 
 0.000 0.000 0.000 rg
 0.000 0.000 0.000 RG
 0.6 w 0 J [  ] 0 d
-BT 34.016 797.914 Td /F3 12.0 Tf  [(        // Si on ne peut pas la faire, le résultat ne sera pas utilisé, on peut donc le modifier sans rien affecter. On n'a pas besoin d'inverser le calcul)] TJ ET
-BT 34.016 785.464 Td /F3 12.0 Tf  [(        Si result % value != 0 faire)] TJ ET
-BT 34.016 773.014 Td /F3 12.0 Tf  [(          stop <- vrai)] TJ ET
-BT 34.016 760.563 Td /F3 12.0 Tf  [(        FinSi)] TJ ET
-BT 34.016 748.113 Td /F3 12.0 Tf  [(        result <- result / value)] TJ ET
-BT 34.016 735.663 Td /F3 12.0 Tf  [(      FinSi)] TJ ET
-BT 34.016 723.213 Td /F3 12.0 Tf  [(      // On se souvient de cette étape)] TJ ET
-BT 34.016 710.762 Td /F3 12.0 Tf  [(      computation[computationSize] <- value)] TJ ET
-BT 34.016 698.312 Td /F3 12.0 Tf  [(    Sinon  // Si ce n'était pas 'a', 'b' ou 'c', alors on interprète directement le caractère)] TJ ET
-BT 34.016 685.862 Td /F3 12.0 Tf  [(      Si currChar = '+' faire)] TJ ET
-BT 34.016 673.412 Td /F3 12.0 Tf  [(        operation <- ADDITION)] TJ ET
-BT 34.016 660.961 Td /F3 12.0 Tf  [(      Sinon si currChar = '-' faire)] TJ ET
-BT 34.016 648.511 Td /F3 12.0 Tf  [(        operation <- SOUSTRACTION)] TJ ET
-BT 34.016 636.061 Td /F3 12.0 Tf  [(      Sinon si currChar = '*' faire)] TJ ET
-BT 34.016 623.611 Td /F3 12.0 Tf  [(        operation <- MULTIPLICATION)] TJ ET
-BT 34.016 611.160 Td /F3 12.0 Tf  [(      Sinon si currChar = '/' faire)] TJ ET
-BT 34.016 598.710 Td /F3 12.0 Tf  [(        operation <- DIVISION)] TJ ET
-BT 34.016 586.260 Td /F3 12.0 Tf  [(      Sinon si currChar = '\\EOF' faire)] TJ ET
-BT 34.016 573.810 Td /F3 12.0 Tf  [(        // On est arrivés à la fin du fichier.)] TJ ET
-BT 34.016 561.359 Td /F3 12.0 Tf  [(        // On arrête la boucle de lecture de ligne ainsi que celle de lecture du fichier \(la boucle principale\))] TJ ET
-BT 34.016 548.909 Td /F3 12.0 Tf  [(        fileEnd <- vrai)] TJ ET
-BT 34.016 536.459 Td /F3 12.0 Tf  [(        stop <- vrai)] TJ ET
-BT 34.016 524.009 Td /F3 12.0 Tf  [(      Sinon si currChar = ';' faire)] TJ ET
-BT 34.016 511.559 Td /F3 12.0 Tf  [(        // C'est un commentaire. On arrête donc la ligne)] TJ ET
-BT 34.016 499.108 Td /F3 12.0 Tf  [(        stop <- vrai)] TJ ET
-BT 34.016 486.658 Td /F3 12.0 Tf  [(      Sinon faire:)] TJ ET
-BT 34.016 474.208 Td /F3 12.0 Tf  [(        // Le symbol n'est pas reconnu)] TJ ET
-BT 34.016 461.758 Td /F3 12.0 Tf  [(        Ecrire\("Fichier corrompu : symbole inconnu : ", c!\))] TJ ET
-BT 34.016 449.307 Td /F3 12.0 Tf  [(        fileEnd <- vrai)] TJ ET
-BT 34.016 436.857 Td /F3 12.0 Tf  [(        stop <- vrai)] TJ ET
-BT 34.016 424.407 Td /F3 12.0 Tf  [(      FinSi)] TJ ET
-BT 34.016 411.957 Td /F3 12.0 Tf  [(      // On se souvient de cette étape)] TJ ET
-BT 34.016 399.506 Td /F3 12.0 Tf  [(      computation[computationSize] <- char2int\(c!\))] TJ ET
-BT 34.016 387.056 Td /F3 12.0 Tf  [(    FinSi)] TJ ET
-BT 34.016 374.606 Td /F3 12.0 Tf  [(    // Dans tous les cas, on a fait une étape en plus)] TJ ET
-BT 34.016 362.156 Td /F3 12.0 Tf  [(    computationSize++)] TJ ET
-BT 34.016 349.705 Td /F3 12.0 Tf  [(    Lire\(file!currChar\)  // On lit le caractère suivant)] TJ ET
-BT 34.016 337.255 Td /F3 12.0 Tf  [(  FinTantQue)] TJ ET
-BT 34.016 324.805 Td /F3 12.0 Tf  [(  // Si on a forcé la fin de lecture mais qu'on n'est pas à la fin du fichier, on n'est pas arrivé au bout de la ligne)] TJ ET
-BT 34.016 312.355 Td /F3 12.0 Tf  [(  // On lit donc jusqu'à la fin de la ligne)] TJ ET
-BT 34.016 299.904 Td /F3 12.0 Tf  [(  Si stop ET NON fileEnd faire)] TJ ET
-BT 34.016 287.454 Td /F3 12.0 Tf  [(    TantQue currChar != '\\n' faire)] TJ ET
-BT 34.016 275.004 Td /F3 12.0 Tf  [(      Lire\(file!currChar\))] TJ ET
-BT 34.016 262.554 Td /F3 12.0 Tf  [(    FinTantQue)] TJ ET
-BT 34.016 250.103 Td /F3 12.0 Tf  [(  Sinon faire  // Si l'arrêt n'a pas été forcé \(et donc que l'on n'est pas à la fin du fichier\))] TJ ET
-BT 34.016 237.653 Td /F3 12.0 Tf  [(    // On cherche "result" dans "possibleResults", pour savoir s'il faut l'afficher à l'utilisateur ou non)] TJ ET
-BT 34.016 225.203 Td /F3 12.0 Tf  [(    found <- vrai)] TJ ET
-BT 34.016 212.753 Td /F3 12.0 Tf  [(    Pour i allant de 1 à possibleResultsCount par pas de 1 faire)] TJ ET
-BT 34.016 200.303 Td /F3 12.0 Tf  [(      Si possibleResults[i] = result faire)] TJ ET
-BT 34.016 187.852 Td /F3 12.0 Tf  [(        found <- vrai)] TJ ET
-BT 34.016 175.402 Td /F3 12.0 Tf  [(      FinSi)] TJ ET
-BT 34.016 162.952 Td /F3 12.0 Tf  [(    FinPour)] TJ ET
-BT 34.016 150.502 Td /F3 12.0 Tf  [(    // Si on n'avait encore jamais trouvé ce résultat, alors on stocke ce résultat dans "possibleResults", et on affiche le résultat)] TJ ET
-BT 34.016 138.051 Td /F3 12.0 Tf  [(    Si NON found faire)] TJ ET
-BT 34.016 125.601 Td /F3 12.0 Tf  [(      possibleResults[possibleResultsCount] <- result)] TJ ET
-BT 34.016 113.151 Td /F3 12.0 Tf  [(      possibleResultsCount <- possibleResultsCount + 1)] TJ ET
-BT 34.016 100.701 Td /F3 12.0 Tf  [(      Ecrire\(result, " ["!\))] TJ ET
-BT 34.016 88.250 Td /F3 12.0 Tf  [(      // S'il y avait 2 calculs, on met des parenthèses, pour éviter d'écrire 2 + 1 * 3 = 9 par exemple)] TJ ET
-BT 34.016 75.800 Td /F3 12.0 Tf  [(      Si computationSize = 5 faire)] TJ ET
-BT 34.016 63.350 Td /F3 12.0 Tf  [(        Ecrire\("\("!\))] TJ ET
-BT 34.016 50.900 Td /F3 12.0 Tf  [(      FinSi)] TJ ET
-BT 34.016 38.449 Td /F3 12.0 Tf  [(      Pour i allant de 1 à computationSize par pas de 1 faire)] TJ ET
-BT 34.016 25.999 Td /F3 12.0 Tf  [(        // Si on est au 4ème caractère, alors "computationSize" vaut 5)] TJ ET
+BT 34.016 784.469 Td /F2 12.0 Tf  [(Pour lire le fichier, on ne peut pas stocker tous les caractères dans un tableau, car on ne connaît pas encore la )] TJ ET
+BT 34.016 770.213 Td /F2 12.0 Tf  [(taille du fichier.)] TJ ET
+BT 34.016 743.957 Td /F2 12.0 Tf  [(On peut parser le fichier au fur et à mesure que l'on le lit. Il faudra pour cela stocker le résultat courant du )] TJ ET
+BT 34.016 729.701 Td /F2 12.0 Tf  [(calcul ainsi que la dernière opération lue. Par exemple, si les 3 nombres choisis par l'utilisateur sont 1, 2 et 3, )] TJ ET
+BT 34.016 715.445 Td /F2 12.0 Tf  [(et que le calcul est )] TJ ET
+BT 125.660 715.445 Td /F3 12.0 Tf  [(b/a*c)] TJ ET
+BT 161.660 715.445 Td /F2 12.0 Tf  [(, on fera :)] TJ ET
+57.816 692.294 m 
+57.816 692.844 57.589 693.390 57.201 693.779 c
+56.812 694.168 56.266 694.394 55.716 694.394 c
+55.166 694.394 54.620 694.168 54.231 693.779 c
+53.842 693.390 53.616 692.844 53.616 692.294 c
+53.616 691.744 53.842 691.198 54.231 690.809 c
+54.620 690.421 55.166 690.194 55.716 690.194 c
+56.266 690.194 56.812 690.421 57.201 690.809 c
+57.589 691.198 57.816 691.744 57.816 692.294 c f
+BT 64.016 689.189 Td /F2 12.0 Tf  [(Par défaut, le résultat vaut 0)] TJ ET
+57.816 678.038 m 
+57.816 678.588 57.589 679.134 57.201 679.523 c
+56.812 679.912 56.266 680.138 55.716 680.138 c
+55.166 680.138 54.620 679.912 54.231 679.523 c
+53.842 679.134 53.616 678.588 53.616 678.038 c
+53.616 677.488 53.842 676.942 54.231 676.553 c
+54.620 676.165 55.166 675.938 55.716 675.938 c
+56.266 675.938 56.812 676.165 57.201 676.553 c
+57.589 676.942 57.816 677.488 57.816 678.038 c f
+BT 64.016 674.933 Td /F2 12.0 Tf  [(Par défaut, la dernière opération est une addition)] TJ ET
+57.816 663.782 m 
+57.816 664.332 57.589 664.878 57.201 665.267 c
+56.812 665.656 56.266 665.882 55.716 665.882 c
+55.166 665.882 54.620 665.656 54.231 665.267 c
+53.842 664.878 53.616 664.332 53.616 663.782 c
+53.616 663.232 53.842 662.686 54.231 662.297 c
+54.620 661.909 55.166 661.682 55.716 661.682 c
+56.266 661.682 56.812 661.909 57.201 662.297 c
+57.589 662.686 57.816 663.232 57.816 663.782 c f
+BT 64.016 660.677 Td /F2 12.0 Tf  [(On lit le premier caractère, c'est un )] TJ ET
+BT 234.788 660.677 Td /F3 12.0 Tf  [(b)] TJ ET
+BT 241.988 660.677 Td /F2 12.0 Tf  [(. On ajoute donc le deuxième terme de la liste de nombre \(2\) au )] TJ ET
+BT 64.016 646.421 Td /F2 12.0 Tf  [(résultat, puisque la dernière opération était une addition. Le résultat vaut donc désormais 0 + 2 = 2)] TJ ET
+57.816 635.270 m 
+57.816 635.820 57.589 636.366 57.201 636.755 c
+56.812 637.144 56.266 637.370 55.716 637.370 c
+55.166 637.370 54.620 637.144 54.231 636.755 c
+53.842 636.366 53.616 635.820 53.616 635.270 c
+53.616 634.720 53.842 634.174 54.231 633.785 c
+54.620 633.397 55.166 633.170 55.716 633.170 c
+56.266 633.170 56.812 633.397 57.201 633.785 c
+57.589 634.174 57.816 634.720 57.816 635.270 c f
+BT 64.016 632.165 Td /F2 12.0 Tf  [(On lit le deuxième caractère, c'est un )] TJ ET
+BT 244.124 632.165 Td /F3 12.0 Tf  [(/)] TJ ET
+BT 251.324 632.165 Td /F2 12.0 Tf  [(. La dernière opération est donc désormais une division)] TJ ET
+57.816 621.014 m 
+57.816 621.564 57.589 622.110 57.201 622.499 c
+56.812 622.888 56.266 623.114 55.716 623.114 c
+55.166 623.114 54.620 622.888 54.231 622.499 c
+53.842 622.110 53.616 621.564 53.616 621.014 c
+53.616 620.464 53.842 619.918 54.231 619.529 c
+54.620 619.141 55.166 618.914 55.716 618.914 c
+56.266 618.914 56.812 619.141 57.201 619.529 c
+57.589 619.918 57.816 620.464 57.816 621.014 c f
+BT 64.016 617.909 Td /F2 12.0 Tf  [(On lit le troisième caractère, c'est un )] TJ ET
+BT 242.132 617.909 Td /F3 12.0 Tf  [(a)] TJ ET
+BT 249.332 617.909 Td /F2 12.0 Tf  [(. On divise donc le résultat par le premier terme de la liste de )] TJ ET
+BT 64.016 603.653 Td /F2 12.0 Tf  [(nombre \(1\), puisque la dernière opération était une division. Le résultat vaut donc désormais 2 / 1 = 2)] TJ ET
+57.816 592.502 m 
+57.816 593.052 57.589 593.598 57.201 593.987 c
+56.812 594.376 56.266 594.602 55.716 594.602 c
+55.166 594.602 54.620 594.376 54.231 593.987 c
+53.842 593.598 53.616 593.052 53.616 592.502 c
+53.616 591.952 53.842 591.406 54.231 591.017 c
+54.620 590.629 55.166 590.402 55.716 590.402 c
+56.266 590.402 56.812 590.629 57.201 591.017 c
+57.589 591.406 57.816 591.952 57.816 592.502 c f
+BT 64.016 589.397 Td /F2 12.0 Tf  [(On lit le quatrième caractère, c'est un )] TJ ET
+BT 245.456 589.397 Td /F3 12.0 Tf  [(*)] TJ ET
+BT 252.656 589.397 Td /F2 12.0 Tf  [( . La dernière opération est donc désormais une multiplication)] TJ ET
+57.816 578.246 m 
+57.816 578.796 57.589 579.342 57.201 579.731 c
+56.812 580.120 56.266 580.346 55.716 580.346 c
+55.166 580.346 54.620 580.120 54.231 579.731 c
+53.842 579.342 53.616 578.796 53.616 578.246 c
+53.616 577.696 53.842 577.150 54.231 576.761 c
+54.620 576.373 55.166 576.146 55.716 576.146 c
+56.266 576.146 56.812 576.373 57.201 576.761 c
+57.589 577.150 57.816 577.696 57.816 578.246 c f
+BT 64.016 575.141 Td /F2 12.0 Tf  [(On lit le cinquième caractère, c'est un )] TJ ET
+BT 247.460 575.141 Td /F3 12.0 Tf  [(c)] TJ ET
+BT 254.660 575.141 Td /F2 12.0 Tf  [( . On divise donc le résultat par le troisième terme de la liste de )] TJ ET
+BT 64.016 560.885 Td /F2 12.0 Tf  [(nombre \(3\), puisque la dernière opération était une multiplication. Le résultat vaut donc désormais 2 * )] TJ ET
+BT 64.016 546.629 Td /F2 12.0 Tf  [(3 = 6)] TJ ET
+57.816 535.478 m 
+57.816 536.028 57.589 536.574 57.201 536.963 c
+56.812 537.352 56.266 537.578 55.716 537.578 c
+55.166 537.578 54.620 537.352 54.231 536.963 c
+53.842 536.574 53.616 536.028 53.616 535.478 c
+53.616 534.928 53.842 534.382 54.231 533.993 c
+54.620 533.605 55.166 533.378 55.716 533.378 c
+56.266 533.378 56.812 533.605 57.201 533.993 c
+57.589 534.382 57.816 534.928 57.816 535.478 c f
+BT 64.016 532.373 Td /F2 12.0 Tf  [(On lit le caractère suivant. C'est un retour à la ligne, la ligne est donc finie. Le résultat final est donc 6)] TJ ET
+BT 34.016 497.475 Td /F1 18.0 Tf  [(4. Programme en Python)] TJ ET
+BT 34.016 464.915 Td /F1 14.0 Tf  [(4.1 Approche)] TJ ET
+BT 34.016 438.174 Td /F2 12.0 Tf  [(Le but est de parcourir les nombres et de trouver quelle combinaison de nombres et d'opérations chaque )] TJ ET
+BT 34.016 423.918 Td /F2 12.0 Tf  [(nombre représente On fera 2 boucles principales, imbriquées les unes dans les autres. La première boucle )] TJ ET
+BT 34.016 409.662 Td /F2 12.0 Tf  [(comptera le nombre d'opérations que l'on fera \(entre 0 et 2\). La seconde sera la boucle qui permettra de )] TJ ET
+BT 34.016 395.406 Td /F2 12.0 Tf  [(parcourir les nombres)] TJ ET
+BT 34.016 367.211 Td /F1 14.0 Tf  [(4.2 Représentation binaire des opérations)] TJ ET
+BT 34.016 340.470 Td /F2 12.0 Tf  [(Une opération est définie sur 2 bits. Voici le tableau de représentation des opérations :)] TJ ET
+BT 51.602 312.267 Td /F1 12.0 Tf  [(00)] TJ ET
+BT 105.938 312.267 Td /F1 12.0 Tf  [(01)] TJ ET
+BT 173.276 312.267 Td /F1 12.0 Tf  [(10)] TJ ET
+BT 231.284 312.267 Td /F1 12.0 Tf  [(11)] TJ ET
+BT 36.266 295.011 Td /F2 12.0 Tf  [(Addition)] TJ ET
+BT 81.938 295.011 Td /F2 12.0 Tf  [(Soustraction)] TJ ET
+BT 144.938 295.011 Td /F2 12.0 Tf  [(Multiplication)] TJ ET
+BT 216.614 295.011 Td /F2 12.0 Tf  [(Division)] TJ ET
+BT 34.016 276.264 Td /F1 14.0 Tf  [(4.3 Représentation binaire d'un arrangement de 3 nombres)] TJ ET
+BT 34.016 249.523 Td /F2 12.0 Tf  [(Un arrangement de 3 nombres est défini sur 3 bits.)] TJ ET
+BT 34.016 223.267 Td /F2 12.0 Tf  [(Tout d'abord, on stocke ces 3 nombres dans un tableau. L'ordre est important, il doit toujours être le même à )] TJ ET
+BT 34.016 209.011 Td /F2 12.0 Tf  [(chaque décoder d'un nombre)] TJ ET
+BT 34.016 182.755 Td /F2 12.0 Tf  [(Si le premier bit vaut 1, alors on échange le premier et le dernier nombre du tableau de nombres)] TJ ET
+BT 34.016 156.499 Td /F2 12.0 Tf  [(Si le deuxième bit vaut 1, alors on échange les 2 premiers nombres du tableau de nombres)] TJ ET
+BT 34.016 130.243 Td /F2 12.0 Tf  [(Si le troisième bit vaut 1, alors on échange les 2 derniers nombres du tableau de nombres)] TJ ET
+BT 34.016 103.987 Td /F1 12.0 Tf  [(Exemple :)] TJ ET
+BT 34.016 77.731 Td /F2 12.0 Tf  [(Prenons le nombre 3 dont la représentation binaire est )] TJ ET
+BT 295.640 77.731 Td /F3 12.0 Tf  [(011)] TJ ET
+BT 317.240 77.731 Td /F2 12.0 Tf  [(. La liste de nombre est : )] TJ ET
+BT 438.560 77.731 Td /F3 12.0 Tf  [(1, 2, 3)] TJ ET
+BT 34.016 51.475 Td /F2 12.0 Tf  [(Le premier bit vaut 1, on fait donc un )] TJ ET
+BT 216.656 51.475 Td /F4 12.0 Tf  [(swap)] TJ ET
+BT 241.328 51.475 Td /F2 12.0 Tf  [( entre la première et la dernière valeur de la liste. On obtient ainsi )] TJ ET
 endstream
 endobj
 48 0 obj
@@ -1130,34 +761,460 @@ endobj
 endobj
 49 0 obj
 <<
-/Length 1536 >>
+/Length 11566 >>
 stream
 
 0.000 0.000 0.000 rg
 0.000 0.000 0.000 RG
 0.6 w 0 J [  ] 0 d
-BT 34.016 797.914 Td /F3 12.0 Tf  [(        // \(elle est forcément impaire, sauf si le fichier est corrompu. Nous considérons qu'il ne l'est pas\))] TJ ET
-BT 34.016 785.464 Td /F3 12.0 Tf  [(        // On est alors après le deuxième nombre, il faut donc fermer la parenthèse)] TJ ET
-BT 34.016 773.014 Td /F3 12.0 Tf  [(        Si i = 4 faire)] TJ ET
-BT 34.016 760.563 Td /F3 12.0 Tf  [(          Ecrire\("\)"!\))] TJ ET
-BT 34.016 748.113 Td /F3 12.0 Tf  [(        FinSi)] TJ ET
-BT 34.016 735.663 Td /F3 12.0 Tf  [(        Si i % 2 faire  // C'est un caractère, il faut le re-transformer en caractère)] TJ ET
-BT 34.016 723.213 Td /F3 12.0 Tf  [(          Ecrire\(int2char\(computation[i]!\)!\))] TJ ET
-BT 34.016 710.762 Td /F3 12.0 Tf  [(        Sinon faire  // C'est un nombre, on l'affiche directement)] TJ ET
-BT 34.016 698.312 Td /F3 12.0 Tf  [(          Ecrire\(computation[i]!\))] TJ ET
-BT 34.016 685.862 Td /F3 12.0 Tf  [(        FinSi)] TJ ET
-BT 34.016 673.412 Td /F3 12.0 Tf  [(      FinPour)] TJ ET
-BT 34.016 660.961 Td /F3 12.0 Tf  [(      Ecrire\(" = ", result, "]\\n", result!\))] TJ ET
-BT 34.016 648.511 Td /F3 12.0 Tf  [(    FinSi)] TJ ET
-BT 34.016 636.061 Td /F3 12.0 Tf  [(  FinSi)] TJ ET
-BT 34.016 623.611 Td /F3 12.0 Tf  [(Fin TantQue)] TJ ET
-BT 34.016 611.160 Td /F3 12.0 Tf  [(// On n'oublie pas de fermer le fichier)] TJ ET
-BT 34.016 598.710 Td /F3 12.0 Tf  [(FermerFichier\(file!\))] TJ ET
-BT 34.016 586.260 Td /F3 12.0 Tf  [(Fin LeCompteEstBon)] TJ ET
+BT 34.016 796.469 Td /F2 12.0 Tf  [(la liste )] TJ ET
+BT 68.684 796.469 Td /F3 12.0 Tf  [(3, 2, 1)] TJ ET
+BT 34.016 770.213 Td /F2 12.0 Tf  [(Le deuxième bit vaut 1, on fait donc un )] TJ ET
+BT 225.992 770.213 Td /F4 12.0 Tf  [(swap)] TJ ET
+BT 250.664 770.213 Td /F2 12.0 Tf  [( entre la première et la deuxième valeur de la liste. On obtient )] TJ ET
+BT 34.016 755.957 Td /F2 12.0 Tf  [(ainsi la liste )] TJ ET
+BT 94.352 755.957 Td /F3 12.0 Tf  [(2, 3, 1)] TJ ET
+BT 34.016 729.701 Td /F2 12.0 Tf  [(Le troisième bit vaut 0, on ne fait donc pas de )] TJ ET
+BT 256.652 729.701 Td /F4 12.0 Tf  [(swap)] TJ ET
+BT 281.324 729.701 Td /F2 12.0 Tf  [(.)] TJ ET
+BT 34.016 703.445 Td /F2 12.0 Tf  [(L'arrangement représenté par le nombre 3 est donc )] TJ ET
+BT 280.100 703.445 Td /F3 12.0 Tf  [(2, 3, 1)] TJ ET
+BT 34.016 675.251 Td /F1 14.0 Tf  [(4.4 Décodage complet d'un nombre)] TJ ET
+BT 34.016 648.510 Td /F2 12.0 Tf  [(On appelle )] TJ ET
+BT 89.336 648.510 Td /F3 12.0 Tf  [(n)] TJ ET
+BT 96.536 648.510 Td /F2 12.0 Tf  [( le nombre d'opérations)] TJ ET
+57.816 625.359 m 
+57.816 625.909 57.589 626.455 57.201 626.844 c
+56.812 627.232 56.266 627.459 55.716 627.459 c
+55.166 627.459 54.620 627.232 54.231 626.844 c
+53.842 626.455 53.616 625.909 53.616 625.359 c
+53.616 624.809 53.842 624.263 54.231 623.874 c
+54.620 623.485 55.166 623.259 55.716 623.259 c
+56.266 623.259 56.812 623.485 57.201 623.874 c
+57.589 624.263 57.816 624.809 57.816 625.359 c f
+BT 64.016 622.254 Td /F2 12.0 Tf  [(Les )] TJ ET
+BT 84.344 622.254 Td /F3 12.0 Tf  [(n)] TJ ET
+BT 91.544 622.254 Td /F2 12.0 Tf  [(x2 derniers bits permettent de décrire les opérations)] TJ ET
+57.816 611.103 m 
+57.816 611.653 57.589 612.199 57.201 612.588 c
+56.812 612.976 56.266 613.203 55.716 613.203 c
+55.166 613.203 54.620 612.976 54.231 612.588 c
+53.842 612.199 53.616 611.653 53.616 611.103 c
+53.616 610.553 53.842 610.007 54.231 609.618 c
+54.620 609.229 55.166 609.003 55.716 609.003 c
+56.266 609.003 56.812 609.229 57.201 609.618 c
+57.589 610.007 57.816 610.553 57.816 611.103 c f
+BT 64.016 607.998 Td /F2 12.0 Tf  [(Les 3 derniers bits permettent de décrire l'arrangement des nombres)] TJ ET
+BT 34.016 581.742 Td /F1 12.0 Tf  [(Exemple :)] TJ ET
+BT 34.016 555.486 Td /F2 12.0 Tf  [(Prenons )] TJ ET
+BT 75.680 555.486 Td /F3 12.0 Tf  [(n)] TJ ET
+BT 82.880 555.486 Td /F2 12.0 Tf  [( = 2, et essayons de décoder le nombre 105, dont la représentation binaire est )] TJ ET
+BT 455.240 555.486 Td /F3 12.0 Tf  [(1101001)] TJ ET
+BT 505.640 555.486 Td /F2 12.0 Tf  [(. )] TJ ET
+BT 34.016 541.230 Td /F2 12.0 Tf  [(Supposons que notre liste de nombre soit )] TJ ET
+BT 234.344 541.230 Td /F3 12.0 Tf  [(1, 2, 3)] TJ ET
+BT 34.016 514.974 Td /F2 12.0 Tf  [(Puisque )] TJ ET
+BT 75.020 514.974 Td /F3 12.0 Tf  [(n)] TJ ET
+BT 82.220 514.974 Td /F2 12.0 Tf  [( = 2, on a 2 opérateurs, notre calcul sera donc de la forme : )] TJ ET
+BT 367.244 514.974 Td /F3 12.0 Tf  [(\(a <opérateur> b\) )] TJ ET
+BT 34.016 502.163 Td /F3 12.0 Tf  [(<opérateur> c)] TJ ET
+57.816 479.372 m 
+57.816 479.922 57.589 480.469 57.201 480.857 c
+56.812 481.246 56.266 481.472 55.716 481.472 c
+55.166 481.472 54.620 481.246 54.231 480.857 c
+53.842 480.469 53.616 479.922 53.616 479.372 c
+53.616 478.823 53.842 478.276 54.231 477.888 c
+54.620 477.499 55.166 477.272 55.716 477.272 c
+56.266 477.272 56.812 477.499 57.201 477.888 c
+57.589 478.276 57.816 478.823 57.816 479.372 c f
+BT 64.016 476.268 Td /F2 12.0 Tf  [(Premier opérateur : on prend les 2 derniers bits, qui sont )] TJ ET
+BT 336.644 476.268 Td /F3 12.0 Tf  [(01)] TJ ET
+BT 351.044 476.268 Td /F2 12.0 Tf  [(. Ce code représente la soustraction, donc )] TJ ET
+BT 64.016 462.012 Td /F2 12.0 Tf  [(le calcul est de la forme )] TJ ET
+BT 181.316 462.012 Td /F3 12.0 Tf  [(\(a - b\) <opérateur> c)] TJ ET
+57.816 450.860 m 
+57.816 451.410 57.589 451.957 57.201 452.345 c
+56.812 452.734 56.266 452.960 55.716 452.960 c
+55.166 452.960 54.620 452.734 54.231 452.345 c
+53.842 451.957 53.616 451.410 53.616 450.860 c
+53.616 450.311 53.842 449.764 54.231 449.376 c
+54.620 448.987 55.166 448.760 55.716 448.760 c
+56.266 448.760 56.812 448.987 57.201 449.376 c
+57.589 449.764 57.816 450.311 57.816 450.860 c f
+BT 64.016 447.756 Td /F2 12.0 Tf  [(Deuxième opérateur : on prend les 2 bits précédents, qui sont )] TJ ET
+BT 360.632 447.756 Td /F3 12.0 Tf  [(10)] TJ ET
+BT 375.032 447.756 Td /F2 12.0 Tf  [(. Ce code représente la multiplication, )] TJ ET
+BT 64.016 433.500 Td /F2 12.0 Tf  [(donc le calcul est de la forme )] TJ ET
+BT 207.644 433.500 Td /F3 12.0 Tf  [(\(a - b\) x c)] TJ ET
+57.816 422.348 m 
+57.816 422.898 57.589 423.445 57.201 423.833 c
+56.812 424.222 56.266 424.448 55.716 424.448 c
+55.166 424.448 54.620 424.222 54.231 423.833 c
+53.842 423.445 53.616 422.898 53.616 422.348 c
+53.616 421.799 53.842 421.252 54.231 420.864 c
+54.620 420.475 55.166 420.248 55.716 420.248 c
+56.266 420.248 56.812 420.475 57.201 420.864 c
+57.589 421.252 57.816 421.799 57.816 422.348 c f
+BT 64.016 419.244 Td /F4 12.0 Tf  [(swap)] TJ ET
+BT 88.688 419.244 Td /F2 12.0 Tf  [( des première et dernière valeurs : le cinquième bit vaut 0, on ne fait donc pas de swap.)] TJ ET
+57.816 408.092 m 
+57.816 408.642 57.589 409.189 57.201 409.577 c
+56.812 409.966 56.266 410.192 55.716 410.192 c
+55.166 410.192 54.620 409.966 54.231 409.577 c
+53.842 409.189 53.616 408.642 53.616 408.092 c
+53.616 407.543 53.842 406.996 54.231 406.608 c
+54.620 406.219 55.166 405.992 55.716 405.992 c
+56.266 405.992 56.812 406.219 57.201 406.608 c
+57.589 406.996 57.816 407.543 57.816 408.092 c f
+BT 64.016 404.988 Td /F4 12.0 Tf  [(swap)] TJ ET
+BT 88.688 404.988 Td /F2 12.0 Tf  [( des 2 premières valeurs : le sixième bit vaut 1, on fait donc un )] TJ ET
+BT 392.648 404.988 Td /F4 12.0 Tf  [(swap)] TJ ET
+BT 417.320 404.988 Td /F2 12.0 Tf  [( des 2 premières valeurs de )] TJ ET
+BT 64.016 390.732 Td /F2 12.0 Tf  [(notre liste. Celle-ci vaut désormais )] TJ ET
+BT 233.996 390.732 Td /F3 12.0 Tf  [(2, 1, 3)] TJ ET
+57.816 379.580 m 
+57.816 380.130 57.589 380.677 57.201 381.065 c
+56.812 381.454 56.266 381.680 55.716 381.680 c
+55.166 381.680 54.620 381.454 54.231 381.065 c
+53.842 380.677 53.616 380.130 53.616 379.580 c
+53.616 379.031 53.842 378.484 54.231 378.096 c
+54.620 377.707 55.166 377.480 55.716 377.480 c
+56.266 377.480 56.812 377.707 57.201 378.096 c
+57.589 378.484 57.816 379.031 57.816 379.580 c f
+BT 64.016 376.476 Td /F4 12.0 Tf  [(swap)] TJ ET
+BT 88.688 376.476 Td /F2 12.0 Tf  [( des 2 dernières valeurs : le septième bit vaut 1, on fait donc un )] TJ ET
+BT 394.640 376.476 Td /F4 12.0 Tf  [(swap)] TJ ET
+BT 419.312 376.476 Td /F2 12.0 Tf  [( des 2 dernières valeurs de )] TJ ET
+BT 64.016 362.220 Td /F2 12.0 Tf  [(notre liste. Celle-ci vaut désormais )] TJ ET
+BT 233.996 362.220 Td /F3 12.0 Tf  [(2, 3, 1)] TJ ET
+57.816 351.068 m 
+57.816 351.618 57.589 352.165 57.201 352.553 c
+56.812 352.942 56.266 353.168 55.716 353.168 c
+55.166 353.168 54.620 352.942 54.231 352.553 c
+53.842 352.165 53.616 351.618 53.616 351.068 c
+53.616 350.519 53.842 349.972 54.231 349.584 c
+54.620 349.195 55.166 348.968 55.716 348.968 c
+56.266 348.968 56.812 349.195 57.201 349.584 c
+57.589 349.972 57.816 350.519 57.816 351.068 c f
+BT 64.016 347.964 Td /F2 12.0 Tf  [(Calcul : en remplaçant )] TJ ET
+BT 175.328 347.964 Td /F3 12.0 Tf  [(a)] TJ ET
+BT 182.528 347.964 Td /F2 12.0 Tf  [(, )] TJ ET
+BT 188.528 347.964 Td /F3 12.0 Tf  [(b)] TJ ET
+BT 195.728 347.964 Td /F2 12.0 Tf  [( et )] TJ ET
+BT 210.392 347.964 Td /F3 12.0 Tf  [(c)] TJ ET
+BT 217.592 347.964 Td /F2 12.0 Tf  [( par les valeurs de la liste, on obtient le calcul )] TJ ET
+BT 439.556 347.964 Td /F3 12.0 Tf  [(\(2 - 3\) x 1)] TJ ET
+BT 518.756 347.964 Td /F2 12.0 Tf  [(. On )] TJ ET
+BT 64.016 333.708 Td /F2 12.0 Tf  [(doit d'abord calculer )] TJ ET
+BT 165.152 333.708 Td /F3 12.0 Tf  [(2 - 3)] TJ ET
+BT 201.152 333.708 Td /F2 12.0 Tf  [(. 2 étant inférieur à 3, on ne peut pas effectuer ce calcul, le calcul )] TJ ET
+BT 64.016 319.452 Td /F2 12.0 Tf  [(représenté par le nombre 105 n'est donc pas possible dans les règles que nous nous sommes fixées.)] TJ ET
+BT 34.016 291.257 Td /F1 14.0 Tf  [(4.5 Redondance)] TJ ET
+BT 34.016 264.516 Td /F2 12.0 Tf  [(La façon de stocker les arrangements contient de la redondance : il existe 3! = 6 arrangements possibles de 3 )] TJ ET
+BT 34.016 250.260 Td /F2 12.0 Tf  [(éléments. Nous stockons ces 6 arrangements sur 3 bits, c'est-à-dire 8 valeurs possibles. Il y a donc plusieurs )] TJ ET
+BT 34.016 236.004 Td /F2 12.0 Tf  [(valeurs qui donneront les mêmes résultats \(2 valeurs redondantes\). Celles-ci sont :)] TJ ET
+57.816 212.853 m 
+57.816 213.403 57.589 213.949 57.201 214.338 c
+56.812 214.727 56.266 214.953 55.716 214.953 c
+55.166 214.953 54.620 214.727 54.231 214.338 c
+53.842 213.949 53.616 213.403 53.616 212.853 c
+53.616 212.303 53.842 211.757 54.231 211.368 c
+54.620 210.979 55.166 210.753 55.716 210.753 c
+56.266 210.753 56.812 210.979 57.201 211.368 c
+57.589 211.757 57.816 212.303 57.816 212.853 c f
+BT 64.016 209.748 Td /F3 12.0 Tf  [(010)] TJ ET
+BT 85.616 209.748 Td /F2 12.0 Tf  [( et )] TJ ET
+BT 100.280 209.748 Td /F3 12.0 Tf  [(111)] TJ ET
+57.816 198.597 m 
+57.816 199.147 57.589 199.693 57.201 200.082 c
+56.812 200.471 56.266 200.697 55.716 200.697 c
+55.166 200.697 54.620 200.471 54.231 200.082 c
+53.842 199.693 53.616 199.147 53.616 198.597 c
+53.616 198.047 53.842 197.501 54.231 197.112 c
+54.620 196.723 55.166 196.497 55.716 196.497 c
+56.266 196.497 56.812 196.723 57.201 197.112 c
+57.589 197.501 57.816 198.047 57.816 198.597 c f
+BT 64.016 195.492 Td /F3 12.0 Tf  [(011)] TJ ET
+BT 85.616 195.492 Td /F2 12.0 Tf  [( et )] TJ ET
+BT 100.280 195.492 Td /F3 12.0 Tf  [(110)] TJ ET
+BT 34.016 169.236 Td /F2 12.0 Tf  [(Nous pouvons remarquer qu'il est inutile de parcourir les nombres de )] TJ ET
+BT 368.456 169.236 Td /F3 12.0 Tf  [(000)] TJ ET
+BT 390.056 169.236 Td /F2 12.0 Tf  [( à )] TJ ET
+BT 401.384 169.236 Td /F3 12.0 Tf  [(101)] TJ ET
+BT 422.984 169.236 Td /F2 12.0 Tf  [(. On peut se contenter de )] TJ ET
+BT 34.016 154.980 Td /F2 12.0 Tf  [(les parcourir entre )] TJ ET
+BT 124.316 154.980 Td /F3 12.0 Tf  [(000)] TJ ET
+BT 145.916 154.980 Td /F2 12.0 Tf  [( et )] TJ ET
+BT 160.580 154.980 Td /F3 12.0 Tf  [(101)] TJ ET
+BT 182.180 154.980 Td /F2 12.0 Tf  [( \(de 0 à 5 inclus\).)] TJ ET
+BT 34.016 120.082 Td /F1 18.0 Tf  [(5 Algorithme)] TJ ET
+BT 34.016 89.460 Td /F2 12.0 Tf  [(Voici l'algorithme que j'ai utilisé en C. J'utilise 4 fonctions, 1 article et 1 syntaxe que je suppose définis :)] TJ ET
+57.816 66.309 m 
+57.816 66.859 57.589 67.405 57.201 67.794 c
+56.812 68.183 56.266 68.409 55.716 68.409 c
+55.166 68.409 54.620 68.183 54.231 67.794 c
+53.842 67.405 53.616 66.859 53.616 66.309 c
+53.616 65.759 53.842 65.213 54.231 64.824 c
+54.620 64.435 55.166 64.209 55.716 64.209 c
+56.266 64.209 56.812 64.435 57.201 64.824 c
+57.589 65.213 57.816 65.759 57.816 66.309 c f
+BT 64.016 63.204 Td /F3 12.0 Tf  [(Fichier)] TJ ET
+BT 114.416 63.204 Td /F2 12.0 Tf  [( : un article représentant un fichier)] TJ ET
+57.816 52.053 m 
+57.816 52.603 57.589 53.149 57.201 53.538 c
+56.812 53.927 56.266 54.153 55.716 54.153 c
+55.166 54.153 54.620 53.927 54.231 53.538 c
+53.842 53.149 53.616 52.603 53.616 52.053 c
+53.616 51.503 53.842 50.957 54.231 50.568 c
+54.620 50.179 55.166 49.953 55.716 49.953 c
+56.266 49.953 56.812 50.179 57.201 50.568 c
+57.589 50.957 57.816 51.503 57.816 52.053 c f
+BT 64.016 48.948 Td /F3 12.0 Tf  [(OuvrirFichier)] TJ ET
+BT 157.616 48.948 Td /F2 12.0 Tf  [( : un sous-algorithme permettant d'ouvrir un fichier. Il prend en paramètre le )] TJ ET
+endstream
+endobj
+50 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 51 0 R
+>>
+endobj
+51 0 obj
+<<
+/Length 8990 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+0.6 w 0 J [  ] 0 d
+BT 64.016 796.469 Td /F2 12.0 Tf  [(chemin vers le fichier \(relatif ou absolu. Dans cet algorithme, j'utilise un chemin relatif\) et renvoie un )] TJ ET
+BT 64.016 782.213 Td /F2 12.0 Tf  [(fichier. Si le fichier n'existe pas, le programme crashe)] TJ ET
+57.816 771.062 m 
+57.816 771.612 57.589 772.158 57.201 772.547 c
+56.812 772.936 56.266 773.162 55.716 773.162 c
+55.166 773.162 54.620 772.936 54.231 772.547 c
+53.842 772.158 53.616 771.612 53.616 771.062 c
+53.616 770.512 53.842 769.966 54.231 769.577 c
+54.620 769.189 55.166 768.962 55.716 768.962 c
+56.266 768.962 56.812 769.189 57.201 769.577 c
+57.589 769.966 57.816 770.512 57.816 771.062 c f
+BT 64.016 767.957 Td /F3 12.0 Tf  [(FermerFichier)] TJ ET
+BT 157.616 767.957 Td /F2 12.0 Tf  [( : un sous-algorithme permettant de fermer un fichier.)] TJ ET
+57.816 756.806 m 
+57.816 757.356 57.589 757.902 57.201 758.291 c
+56.812 758.680 56.266 758.906 55.716 758.906 c
+55.166 758.906 54.620 758.680 54.231 758.291 c
+53.842 757.902 53.616 757.356 53.616 756.806 c
+53.616 756.256 53.842 755.710 54.231 755.321 c
+54.620 754.933 55.166 754.706 55.716 754.706 c
+56.266 754.706 56.812 754.933 57.201 755.321 c
+57.589 755.710 57.816 756.256 57.816 756.806 c f
+BT 64.016 753.701 Td /F2 12.0 Tf  [(Je suppose que l'on peut utiliser la fonction )] TJ ET
+BT 274.160 753.701 Td /F3 12.0 Tf  [(Lire)] TJ ET
+BT 302.960 753.701 Td /F2 12.0 Tf  [( de la manière suivante : )] TJ ET
+BT 422.936 753.701 Td /F3 12.0 Tf  [(Lire\(fichier!c\))] TJ ET
+BT 530.936 753.701 Td /F2 12.0 Tf  [(, où )] TJ ET
+BT 64.016 739.445 Td /F3 12.0 Tf  [(fichier)] TJ ET
+BT 114.416 739.445 Td /F2 12.0 Tf  [( est une variable de type )] TJ ET
+BT 233.720 739.445 Td /F3 12.0 Tf  [(Fichier)] TJ ET
+BT 284.120 739.445 Td /F2 12.0 Tf  [( et )] TJ ET
+BT 298.784 739.445 Td /F3 12.0 Tf  [(c)] TJ ET
+BT 305.984 739.445 Td /F2 12.0 Tf  [( est une variable de type caractère. La fonction lit )] TJ ET
+BT 64.016 725.189 Td /F2 12.0 Tf  [(alors un caractère dans le fichier et avance le curseur de lecture de 1. Ainsi, après un deuxième appel )] TJ ET
+BT 64.016 710.933 Td /F2 12.0 Tf  [(de la fonction, le caractère suivant sera lu.)] TJ ET
+57.816 699.782 m 
+57.816 700.332 57.589 700.878 57.201 701.267 c
+56.812 701.656 56.266 701.882 55.716 701.882 c
+55.166 701.882 54.620 701.656 54.231 701.267 c
+53.842 700.878 53.616 700.332 53.616 699.782 c
+53.616 699.232 53.842 698.686 54.231 698.297 c
+54.620 697.909 55.166 697.682 55.716 697.682 c
+56.266 697.682 56.812 697.909 57.201 698.297 c
+57.589 698.686 57.816 699.232 57.816 699.782 c f
+BT 64.016 696.677 Td /F3 12.0 Tf  [(char2int)] TJ ET
+BT 121.616 696.677 Td /F2 12.0 Tf  [( : retourne le code ASCII du caractère passé en paramètre)] TJ ET
+57.816 685.526 m 
+57.816 686.076 57.589 686.622 57.201 687.011 c
+56.812 687.400 56.266 687.626 55.716 687.626 c
+55.166 687.626 54.620 687.400 54.231 687.011 c
+53.842 686.622 53.616 686.076 53.616 685.526 c
+53.616 684.976 53.842 684.430 54.231 684.041 c
+54.620 683.653 55.166 683.426 55.716 683.426 c
+56.266 683.426 56.812 683.653 57.201 684.041 c
+57.589 684.430 57.816 684.976 57.816 685.526 c f
+BT 64.016 682.421 Td /F3 12.0 Tf  [(int2char)] TJ ET
+BT 121.616 682.421 Td /F2 12.0 Tf  [( : retourne le caractère ASCII associé au nombre passé en paramètre)] TJ ET
+BT 34.016 657.610 Td /F3 12.0 Tf  [(Programme LeCompteEstBon)] TJ ET
+BT 34.016 645.160 Td /F3 12.0 Tf  [(Variables:)] TJ ET
+BT 34.016 632.710 Td /F3 12.0 Tf  [(file : Fichier  // Le fichier que l'on lit)] TJ ET
+BT 34.016 620.259 Td /F3 12.0 Tf  [(values : entiers[1...3]  // Les 3 valeurs de l'utilisateur)] TJ ET
+BT 34.016 607.809 Td /F3 12.0 Tf  [(currChar : caractère  // Le caractère courant)] TJ ET
+BT 34.016 595.359 Td /F3 12.0 Tf  [(fileEnd : booléen  // Si on a fini de lire le fichier. Si currChar == '\\0', alors on est arrivé à la fin du fichier)] TJ ET
+BT 34.016 582.909 Td /F3 12.0 Tf  [(stop : booléen  // Calcul impossible ?)] TJ ET
+BT 34.016 570.458 Td /F3 12.0 Tf  [(possibleResults : tableau[1...74] d'entiers  // Le stockage des différents résultats que l'on a trouvés, pour éviter de donner certains résultats plusieurs fois à l'utilisateur)] TJ ET
+BT 34.016 558.008 Td /F3 12.0 Tf  [(                                             // \(par exemple, avec 1, 2 et 3, on peut faire plusieurs fois le nombre 1 : 2 - 1 = \(1 + 2\) / 3 = 1\))] TJ ET
+BT 34.016 545.558 Td /F3 12.0 Tf  [(                                             // 74 est le nombre de combinaisons d'opérations possibles)] TJ ET
+BT 34.016 533.108 Td /F3 12.0 Tf  [(possibleResultsCount : entier  // Variable de compteur permet de savoir où on en est dans le tableau possibleResults)] TJ ET
+BT 34.016 520.657 Td /F3 12.0 Tf  [(result : entier  // Résultat du calcul)] TJ ET
+BT 34.016 508.207 Td /F3 12.0 Tf  [(operation : entier  // La dernière addition lue)] TJ ET
+BT 34.016 495.757 Td /F3 12.0 Tf  [(computation : tableau[1...5] d'entiers  // La trace de notre calcul. Les 5 entiers peuvent permettre de stocker jusqu'à 3 nombres et 2 opérateurs, soit le calcul le plus long autorisé)] TJ ET
+BT 34.016 483.307 Td /F3 12.0 Tf  [(computationSize : entier  // La taille de notre calcul. C'est la somme du nombre de termes et d'opérations. Par exemple, 1 + 2 a une longueur de 3 \(2 nombre et 1 opération\))] TJ ET
+BT 34.016 470.856 Td /F3 12.0 Tf  [(i : entier  // Variable compteur)] TJ ET
+BT 34.016 458.406 Td /F3 12.0 Tf  [(value : entier  // Une valeur des valeurs entrées par l'utilisateur. Elle représente la valeur utilisée à un moment donné)] TJ ET
+BT 34.016 445.956 Td /F3 12.0 Tf  [(found : booléen  // Variable booléenne qui dit si on a trouvé ou non le résultat quand on recherche dans la liste des résultats trouvés)] TJ ET
+BT 34.016 433.506 Td /F3 12.0 Tf  [(Algorithme:)] TJ ET
+BT 34.016 421.055 Td /F3 12.0 Tf  [(// On ouvre le fichier "combinations" en lecture)] TJ ET
+BT 34.016 408.605 Td /F3 12.0 Tf  [(OuvrirFichier\("c/combinations"!file\))] TJ ET
+BT 34.016 396.155 Td /F3 12.0 Tf  [(// Entrée des 3 valeurs de l'utilisateur)] TJ ET
+BT 34.016 383.705 Td /F3 12.0 Tf  [(Pour j allant de 1 à 3 par pas de 1 faire)] TJ ET
+BT 34.016 371.255 Td /F3 12.0 Tf  [(  Ecrire\("Entrez le caractère ", j!\))] TJ ET
+BT 34.016 358.804 Td /F3 12.0 Tf  [(  Lire\(clavier!values[j]\))] TJ ET
+BT 34.016 346.354 Td /F3 12.0 Tf  [(Fin Pour)] TJ ET
+BT 34.016 333.904 Td /F3 12.0 Tf  [(fileEnd <- faux)] TJ ET
+BT 34.016 321.454 Td /F3 12.0 Tf  [(possibleResultsCount <- 0)] TJ ET
+BT 34.016 309.003 Td /F3 12.0 Tf  [(// Boucle principal : lit une ligne et calcule le résultat associé à cette ligne)] TJ ET
+BT 34.016 296.553 Td /F3 12.0 Tf  [(Tant que NON fileEnd faire)] TJ ET
+BT 34.016 284.103 Td /F3 12.0 Tf  [(  stop <- faux  // Par défaut, on suppose que le calcul est possible)] TJ ET
+BT 34.016 271.653 Td /F3 12.0 Tf  [(  result <- 0  // La valeur est modifiée au fur et à mesure que l'on lit la ligne)] TJ ET
+BT 34.016 259.202 Td /F3 12.0 Tf  [(  operation <- 0  // Par défaut, c'est l'addition : quand on traitera le premier nombre, on aura result = 0 + nombre)] TJ ET
+BT 34.016 246.752 Td /F3 12.0 Tf  [(  computationSize <- 0)] TJ ET
+BT 34.016 234.302 Td /F3 12.0 Tf  [(  // Boucle qui lit un calcul. S'arrête quand le calcul est impossible ou quand on est arrivé à la fin de la ligne)] TJ ET
+BT 34.016 221.852 Td /F3 12.0 Tf  [(  Lire\(file!currChar\)  // On lit un premier caractère)] TJ ET
+BT 34.016 209.401 Td /F3 12.0 Tf  [(  TantQue NON stop ET currChar != '\\n' faire)] TJ ET
+BT 34.016 196.951 Td /F3 12.0 Tf  [(    // Les caractères représentent les nombres du tableau "values")] TJ ET
+BT 34.016 184.501 Td /F3 12.0 Tf  [(    Si 'a' <= currChar ET currChar <= 'c' faire)] TJ ET
+BT 34.016 172.051 Td /F3 12.0 Tf  [(      value <- values[char2int\(currChar\) - char2int\('a'\)]  // "c - 'a'" retournera 1, 2, ou 3 en fonction de la valeur de c)] TJ ET
+BT 34.016 159.600 Td /F3 12.0 Tf  [(      // On regarde ce qu'il faut faire avec ce nombre. Par exemple, si c'est une multiplication, il faut multiplier le résultat par "value")] TJ ET
+BT 34.016 147.150 Td /F3 12.0 Tf  [(      Si operation = 0 faire  // Addition)] TJ ET
+BT 34.016 134.700 Td /F3 12.0 Tf  [(        result <- result + value)] TJ ET
+BT 34.016 122.250 Td /F3 12.0 Tf  [(      Sinon si operation = 1 faire  // Soustraction)] TJ ET
+BT 34.016 109.799 Td /F3 12.0 Tf  [(        // Il faut gérer le cas où on ne peut pas faire la soustraction)] TJ ET
+BT 34.016 97.349 Td /F3 12.0 Tf  [(        // Si on ne peut pas la faire, le résultat ne sera pas utilisé, on peut donc le modifier sans rien affecter. On n'a pas besoin d'inverser le calcul)] TJ ET
+BT 34.016 84.899 Td /F3 12.0 Tf  [(        result <- result - value)] TJ ET
+BT 34.016 72.449 Td /F3 12.0 Tf  [(        Si result < 0 faire)] TJ ET
+BT 34.016 59.999 Td /F3 12.0 Tf  [(          stop <- vrai)] TJ ET
+BT 34.016 47.548 Td /F3 12.0 Tf  [(        FinSi)] TJ ET
+BT 34.016 35.098 Td /F3 12.0 Tf  [(      Sinon si operation = 2 faire  // Multiplication)] TJ ET
+endstream
+endobj
+52 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 53 0 R
+>>
+endobj
+53 0 obj
+<<
+/Length 5590 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+0.6 w 0 J [  ] 0 d
+BT 34.016 797.914 Td /F3 12.0 Tf  [(        result <- result * value)] TJ ET
+BT 34.016 785.464 Td /F3 12.0 Tf  [(      Sinon si operation = 3 faire  // Division)] TJ ET
+BT 34.016 773.014 Td /F3 12.0 Tf  [(        // Il faut gérer le cas où on ne peut pas faire la division)] TJ ET
+BT 34.016 760.563 Td /F3 12.0 Tf  [(        // Si on ne peut pas la faire, le résultat ne sera pas utilisé, on peut donc le modifier sans rien affecter. On n'a pas besoin d'inverser le calcul)] TJ ET
+BT 34.016 748.113 Td /F3 12.0 Tf  [(        Si result % value != 0 faire)] TJ ET
+BT 34.016 735.663 Td /F3 12.0 Tf  [(          stop <- vrai)] TJ ET
+BT 34.016 723.213 Td /F3 12.0 Tf  [(        FinSi)] TJ ET
+BT 34.016 710.762 Td /F3 12.0 Tf  [(        result <- result / value)] TJ ET
+BT 34.016 698.312 Td /F3 12.0 Tf  [(      FinSi)] TJ ET
+BT 34.016 685.862 Td /F3 12.0 Tf  [(      // On se souvient de cette étape)] TJ ET
+BT 34.016 673.412 Td /F3 12.0 Tf  [(      computation[computationSize] <- value)] TJ ET
+BT 34.016 660.961 Td /F3 12.0 Tf  [(    Sinon  // Si ce n'était pas 'a', 'b' ou 'c', alors on interprète directement le caractère)] TJ ET
+BT 34.016 648.511 Td /F3 12.0 Tf  [(      Si currChar = '+' faire)] TJ ET
+BT 34.016 636.061 Td /F3 12.0 Tf  [(        operation <- ADDITION)] TJ ET
+BT 34.016 623.611 Td /F3 12.0 Tf  [(      Sinon si currChar = '-' faire)] TJ ET
+BT 34.016 611.160 Td /F3 12.0 Tf  [(        operation <- SOUSTRACTION)] TJ ET
+BT 34.016 598.710 Td /F3 12.0 Tf  [(      Sinon si currChar = '*' faire)] TJ ET
+BT 34.016 586.260 Td /F3 12.0 Tf  [(        operation <- MULTIPLICATION)] TJ ET
+BT 34.016 573.810 Td /F3 12.0 Tf  [(      Sinon si currChar = '/' faire)] TJ ET
+BT 34.016 561.359 Td /F3 12.0 Tf  [(        operation <- DIVISION)] TJ ET
+BT 34.016 548.909 Td /F3 12.0 Tf  [(      Sinon si currChar = '\\EOF' faire)] TJ ET
+BT 34.016 536.459 Td /F3 12.0 Tf  [(        // On est arrivés à la fin du fichier.)] TJ ET
+BT 34.016 524.009 Td /F3 12.0 Tf  [(        // On arrête la boucle de lecture de ligne ainsi que celle de lecture du fichier \(la boucle principale\))] TJ ET
+BT 34.016 511.559 Td /F3 12.0 Tf  [(        fileEnd <- vrai)] TJ ET
+BT 34.016 499.108 Td /F3 12.0 Tf  [(        stop <- vrai)] TJ ET
+BT 34.016 486.658 Td /F3 12.0 Tf  [(      Sinon si currChar = ';' faire)] TJ ET
+BT 34.016 474.208 Td /F3 12.0 Tf  [(        // C'est un commentaire. On arrête donc la ligne)] TJ ET
+BT 34.016 461.758 Td /F3 12.0 Tf  [(        stop <- vrai)] TJ ET
+BT 34.016 449.307 Td /F3 12.0 Tf  [(      Sinon faire:)] TJ ET
+BT 34.016 436.857 Td /F3 12.0 Tf  [(        // Le symbol n'est pas reconnu)] TJ ET
+BT 34.016 424.407 Td /F3 12.0 Tf  [(        Ecrire\("Fichier corrompu : symbole inconnu : ", c!\))] TJ ET
+BT 34.016 411.957 Td /F3 12.0 Tf  [(        fileEnd <- vrai)] TJ ET
+BT 34.016 399.506 Td /F3 12.0 Tf  [(        stop <- vrai)] TJ ET
+BT 34.016 387.056 Td /F3 12.0 Tf  [(      FinSi)] TJ ET
+BT 34.016 374.606 Td /F3 12.0 Tf  [(      // On se souvient de cette étape)] TJ ET
+BT 34.016 362.156 Td /F3 12.0 Tf  [(      computation[computationSize] <- char2int\(c!\))] TJ ET
+BT 34.016 349.705 Td /F3 12.0 Tf  [(    FinSi)] TJ ET
+BT 34.016 337.255 Td /F3 12.0 Tf  [(    // Dans tous les cas, on a fait une étape en plus)] TJ ET
+BT 34.016 324.805 Td /F3 12.0 Tf  [(    computationSize++)] TJ ET
+BT 34.016 312.355 Td /F3 12.0 Tf  [(    Lire\(file!currChar\)  // On lit le caractère suivant)] TJ ET
+BT 34.016 299.904 Td /F3 12.0 Tf  [(  FinTantQue)] TJ ET
+BT 34.016 287.454 Td /F3 12.0 Tf  [(  // Si on a forcé la fin de lecture mais qu'on n'est pas à la fin du fichier, on n'est pas arrivé au bout de la ligne)] TJ ET
+BT 34.016 275.004 Td /F3 12.0 Tf  [(  // On lit donc jusqu'à la fin de la ligne)] TJ ET
+BT 34.016 262.554 Td /F3 12.0 Tf  [(  Si stop ET NON fileEnd faire)] TJ ET
+BT 34.016 250.103 Td /F3 12.0 Tf  [(    TantQue currChar != '\\n' faire)] TJ ET
+BT 34.016 237.653 Td /F3 12.0 Tf  [(      Lire\(file!currChar\))] TJ ET
+BT 34.016 225.203 Td /F3 12.0 Tf  [(    FinTantQue)] TJ ET
+BT 34.016 212.753 Td /F3 12.0 Tf  [(  Sinon faire  // Si l'arrêt n'a pas été forcé \(et donc que l'on n'est pas à la fin du fichier\))] TJ ET
+BT 34.016 200.303 Td /F3 12.0 Tf  [(    // On cherche "result" dans "possibleResults", pour savoir s'il faut l'afficher à l'utilisateur ou non)] TJ ET
+BT 34.016 187.852 Td /F3 12.0 Tf  [(    found <- vrai)] TJ ET
+BT 34.016 175.402 Td /F3 12.0 Tf  [(    Pour i allant de 1 à possibleResultsCount par pas de 1 faire)] TJ ET
+BT 34.016 162.952 Td /F3 12.0 Tf  [(      Si possibleResults[i] = result faire)] TJ ET
+BT 34.016 150.502 Td /F3 12.0 Tf  [(        found <- vrai)] TJ ET
+BT 34.016 138.051 Td /F3 12.0 Tf  [(      FinSi)] TJ ET
+BT 34.016 125.601 Td /F3 12.0 Tf  [(    FinPour)] TJ ET
+BT 34.016 113.151 Td /F3 12.0 Tf  [(    // Si on n'avait encore jamais trouvé ce résultat, alors on stocke ce résultat dans "possibleResults", et on affiche le résultat)] TJ ET
+BT 34.016 100.701 Td /F3 12.0 Tf  [(    Si NON found faire)] TJ ET
+BT 34.016 88.250 Td /F3 12.0 Tf  [(      possibleResults[possibleResultsCount] <- result)] TJ ET
+BT 34.016 75.800 Td /F3 12.0 Tf  [(      possibleResultsCount <- possibleResultsCount + 1)] TJ ET
+BT 34.016 63.350 Td /F3 12.0 Tf  [(      Ecrire\(result, " ["!\))] TJ ET
+BT 34.016 50.900 Td /F3 12.0 Tf  [(      // S'il y avait 2 calculs, on met des parenthèses, pour éviter d'écrire 2 + 1 * 3 = 9 par exemple)] TJ ET
+BT 34.016 38.449 Td /F3 12.0 Tf  [(      Si computationSize = 5 faire)] TJ ET
+BT 34.016 25.999 Td /F3 12.0 Tf  [(        Ecrire\("\("!\))] TJ ET
+endstream
+endobj
+54 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 55 0 R
+>>
+endobj
+55 0 obj
+<<
+/Length 1813 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+0.6 w 0 J [  ] 0 d
+BT 34.016 797.914 Td /F3 12.0 Tf  [(      FinSi)] TJ ET
+BT 34.016 785.464 Td /F3 12.0 Tf  [(      Pour i allant de 1 à computationSize par pas de 1 faire)] TJ ET
+BT 34.016 773.014 Td /F3 12.0 Tf  [(        // Si on est au 4ème caractère, alors "computationSize" vaut 5)] TJ ET
+BT 34.016 760.563 Td /F3 12.0 Tf  [(        // \(elle est forcément impaire, sauf si le fichier est corrompu. Nous considérons qu'il ne l'est pas\))] TJ ET
+BT 34.016 748.113 Td /F3 12.0 Tf  [(        // On est alors après le deuxième nombre, il faut donc fermer la parenthèse)] TJ ET
+BT 34.016 735.663 Td /F3 12.0 Tf  [(        Si i = 4 faire)] TJ ET
+BT 34.016 723.213 Td /F3 12.0 Tf  [(          Ecrire\("\)"!\))] TJ ET
+BT 34.016 710.762 Td /F3 12.0 Tf  [(        FinSi)] TJ ET
+BT 34.016 698.312 Td /F3 12.0 Tf  [(        Si i % 2 faire  // C'est un caractère, il faut le re-transformer en caractère)] TJ ET
+BT 34.016 685.862 Td /F3 12.0 Tf  [(          Ecrire\(int2char\(computation[i]!\)!\))] TJ ET
+BT 34.016 673.412 Td /F3 12.0 Tf  [(        Sinon faire  // C'est un nombre, on l'affiche directement)] TJ ET
+BT 34.016 660.961 Td /F3 12.0 Tf  [(          Ecrire\(computation[i]!\))] TJ ET
+BT 34.016 648.511 Td /F3 12.0 Tf  [(        FinSi)] TJ ET
+BT 34.016 636.061 Td /F3 12.0 Tf  [(      FinPour)] TJ ET
+BT 34.016 623.611 Td /F3 12.0 Tf  [(      Ecrire\(" = ", result, "]\\n", result!\))] TJ ET
+BT 34.016 611.160 Td /F3 12.0 Tf  [(    FinSi)] TJ ET
+BT 34.016 598.710 Td /F3 12.0 Tf  [(  FinSi)] TJ ET
+BT 34.016 586.260 Td /F3 12.0 Tf  [(Fin TantQue)] TJ ET
+BT 34.016 573.810 Td /F3 12.0 Tf  [(// On n'oublie pas de fermer le fichier)] TJ ET
+BT 34.016 561.359 Td /F3 12.0 Tf  [(FermerFichier\(file!\))] TJ ET
+BT 34.016 548.909 Td /F3 12.0 Tf  [(Fin LeCompteEstBon)] TJ ET
 endstream
 endobj
 xref
-0 50
+0 56
 0000000000 65535 f 
 0000000009 00000 n 
 0000000074 00000 n 
@@ -1165,55 +1222,61 @@ xref
 0000000348 00000 n 
 0000000377 00000 n 
 0000000491 00000 n 
-0000000657 00000 n 
-0000006010 00000 n 
-0000006118 00000 n 
-0000006227 00000 n 
-0000006333 00000 n 
-0000006461 00000 n 
-0000006563 00000 n 
-0000006690 00000 n 
-0000006726 00000 n 
-0000006853 00000 n 
-0000006889 00000 n 
-0000007016 00000 n 
-0000007052 00000 n 
-0000007179 00000 n 
-0000007215 00000 n 
-0000007342 00000 n 
-0000007378 00000 n 
-0000007505 00000 n 
-0000007541 00000 n 
-0000007668 00000 n 
-0000007704 00000 n 
-0000007831 00000 n 
-0000007867 00000 n 
-0000007994 00000 n 
-0000008030 00000 n 
-0000008157 00000 n 
-0000008193 00000 n 
-0000008320 00000 n 
-0000008356 00000 n 
-0000008482 00000 n 
-0000008518 00000 n 
-0000008583 00000 n 
-0000018273 00000 n 
-0000018384 00000 n 
-0000018449 00000 n 
-0000027278 00000 n 
-0000027343 00000 n 
-0000038892 00000 n 
-0000038957 00000 n 
-0000048026 00000 n 
-0000048091 00000 n 
-0000053730 00000 n 
-0000053795 00000 n 
+0000000678 00000 n 
+0000006197 00000 n 
+0000006305 00000 n 
+0000006414 00000 n 
+0000006520 00000 n 
+0000006648 00000 n 
+0000006750 00000 n 
+0000006877 00000 n 
+0000006913 00000 n 
+0000007040 00000 n 
+0000007076 00000 n 
+0000007203 00000 n 
+0000007239 00000 n 
+0000007366 00000 n 
+0000007402 00000 n 
+0000007529 00000 n 
+0000007565 00000 n 
+0000007692 00000 n 
+0000007728 00000 n 
+0000007855 00000 n 
+0000007891 00000 n 
+0000008018 00000 n 
+0000008054 00000 n 
+0000008181 00000 n 
+0000008217 00000 n 
+0000008344 00000 n 
+0000008380 00000 n 
+0000008507 00000 n 
+0000008543 00000 n 
+0000008670 00000 n 
+0000008706 00000 n 
+0000008833 00000 n 
+0000008869 00000 n 
+0000008996 00000 n 
+0000009032 00000 n 
+0000009158 00000 n 
+0000009194 00000 n 
+0000009259 00000 n 
+0000019226 00000 n 
+0000019337 00000 n 
+0000019402 00000 n 
+0000028102 00000 n 
+0000028167 00000 n 
+0000039787 00000 n 
+0000039852 00000 n 
+0000048895 00000 n 
+0000048960 00000 n 
+0000054603 00000 n 
+0000054668 00000 n 
 trailer
 <<
-/Size 50
+/Size 56
 /Root 1 0 R
 /Info 5 0 R
 >>
 startxref
-55384
+56534
 %%EOF
