@@ -16,13 +16,13 @@ for number_of_operations in range(3):
             if (i >> (swap_offset + swap)) & 1:
                 # On fait le swap
                 order[swap], order[swap-1] = order[swap-1], order[swap]
-        # On calcul le résultat
+        # On calcule le résultat
         result = order[0]
-        combination_string = str(order[0])
+        combination_string = ("(" if number_of_operations == 2 else "") + str(order[0])
         skipped = False
         # On parcourt les opérations, ainsi que les valeurs à partir de la deuxième.
         # La première a déjà été traitée dans l'initialisation de la variable result
-        for operation, val in zip(operations, order[1:]):
+        for operation, val, j in zip(operations, order[1:], range(len(operations))):
             if operation == 0:  # Addition
                 result += val
                 combination_string += " + " + str(val)
@@ -41,9 +41,9 @@ for number_of_operations in range(3):
                     break
                 result //= val  # Si on fait une division simple, le résultat sera un flottant
                 combination_string += " / " + str(val)
-        if not skipped:  # Si le calcul a été effectué sans opérations interdites
-            print(combination_string)
-            if not result in combinations:
-                combinations[result] = combination_string + " = " + str(result)
+            if number_of_operations == 2 and j == 0:
+                combination_string += ")"
+        if not skipped and not result in combinations:  # Si le calcul a été effectué sans opérations interdites
+            combinations[result] = combination_string + " = " + str(result)
 for possible_results in sorted(combinations.keys()):
-    print(str(possible_results) + " (" + combinations[possible_results] + ") ")
+    print(str(possible_results) + " [" + combinations[possible_results] + "] ")

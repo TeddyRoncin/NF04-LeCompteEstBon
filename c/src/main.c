@@ -17,7 +17,7 @@ int main() {
     // Entrée des 3 valeurs de l'utilisateur
     int values[3];
     for (int i = 0; i < 3; i++) {
-        printf("Entrez le caractere %d : ", i);
+        printf("Entrez le nombre %d :", i+1);
         scanf("%d", &values[i]);
     }
     int c;  // Le caractère courant
